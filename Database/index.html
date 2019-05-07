@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Database Index Page </title>
+  <meta>
+</head>
+
+<body>
+
+    
+    <p>-- get all club ids and names
+          <button type="button">Display all clubs</button>
+    </form>
+    </p>
+
+    
+    <p>-- get all club ids and names and their respective income and expenditures for all years
+        <button type="button">Display all expenditures</button>
+    </form>
+    </p>    
+
+   
+    <p> -- get all players and their current information
+        <button type="button">Display all players</button>
+    </form>
+    </p>    
+
+  <p>-- add a new player
+  <form >
+    First name: <input type = "text" name = "first_name_input" maxlength= 100/>
+    <br>
+    Last name: <input type = "text" name = "last_name_input" maxlength= 100/>
+    <br>
+    Country of origin: <input type = "text" name = "country_id_input" maxlength= 100/>
+    <br>
+    Fee: <input type = "number" name = "fee_input" />
+    <br>
+    Market val: <input type = "number" name = "fee_input" />
+    <br>
+    <button type="button">Add player</button>
+
+ </form></p>
+
+  <p>-- add a new club
+ <form >
+  Club name: <input type = "text" name = "club_name" maxlength= 100/>
+  <br>
+  <button type="button">Add club</button>
+</form></p>
+
+
+<p>-- add a new cashflow record
+    <form >
+     Club id: <input type = "number" name = "club_id"/>
+     <br>
+     Cashflow year: <input type = "number" name = "cashflow_year"/>
+     <br>
+     Income amount: <input type = "number" name = "Income"/>
+     <br>
+     Expenditure amount: <input type = "number" name = "Expenditure"/>
+     <br>
+     <button type="button">Add club</button>
+   </form></p>
+
+
+  <p>-- add a new cashflow record
+    <form >
+      Club id: <input type = "number" name = "club_id"/>
+      <br>
+      Cashflow year: <input type = "number" name = "cashflow_year"/>
+      <br>
+      Income amount: <input type = "number" name = "Income"/>
+      <br>
+      Expenditure amount: <input type = "number" name = "Expenditure"/>
+      <br>
+      <button type="button">Add club</button>
+    </form></p>
+
+
+    <p>-- associate a club with a league (M-to-M relationship addition)
+    <form >
+        Club id: <input type = "number" name = "club_id"/>
+        <br>
+        League id: <input type = "number" name = "league_id"/>
+        <br>
+        Cashflow year: <input type = "number" name = "cashflow_year"/>
+        <br>
+        <button type="button">Create </button>
+      </form></p>
+
+    
+    <p>-- update a player's information
+        <form >
+            First name: <input type = "text" name = "first_name_input" maxlength= 100/>
+            <br>
+            Last name: <input type = "text" name = "last_name_input" maxlength= 100/>
+            <br>
+            Country of origin: <input type = "text" name = "country_id_input" maxlength= 100/>
+            <br>
+            Fee: <input type = "number" name = "fee_input" />
+            <br>
+            Market val: <input type = "number" name = "fee_input" />
+            <br>
+            <button type="button">Update player information</button>
+          </form></p>
+
+    <p>-- delete a player
+    <form >
+        Player id: <input type = "number" name = "player_id_input"/>
+        <br>
+        <button type="button">Delete player</button>
+      </form></p>
+    
+    
+    <p>-- update a club's information
+        <form >
+            Club name: <input type = "text" name = "club_name" maxlength= 100/>
+            <br>
+            Country: <input type = "text" name = "country_name" maxlength= 100/>
+            <br>
+            <button type="button">Update club</button>
+          </form></p>
+
+    <p>-- delete a club
+        <form >
+            Club id: <input type = "number" name = "club_id_input"/>
+            <br>
+            <button type="button">Delete club</button>
+          </form></p>
+    
+    <p>  -- dis-associate a certificate from a person (M-to-M relationship deletion)
+        <form >
+            Club id: <input type = "number" name = "club_id_input"/>
+            <br>
+            League id: <input type = "number" name = "league_id_input"/>
+            <br>
+            Year: <input type = "number" name = "year_input"/>
+            <br>
+            <button type="button">Delete club info</button>
+          </form></p>
+
+
+          <script src="webpage/scripts.js"></script>
+        </body>
+
+</html>
