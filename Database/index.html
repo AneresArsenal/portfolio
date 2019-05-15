@@ -1,148 +1,321 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title> Database Index Page </title>
-  <meta>
-</head>
-
-<body>
-
-    
-    <p>-- get all club ids and names
-          <button type="button">Display all clubs</button>
+  <head>
+    <meta charset="utf-8">
+    <title> Database Index Page </title>
+    <meta>
+  </head>
+  <body>
+    <p>-- get all club ids and names</p>
+    <form>
+          <!-- Yes, this isn't a input button of type submit, but we'll be attaching event listeners -->
+          <!-- to create requests and dynamically serve content without a page-refresh -->
+          <!-- this applies to all buttons on this HTML -->
+          <button type="button" id="display-clubs-button">Display all clubs</button>
     </form>
-    </p>
-
     
-    <p>-- get all club ids and names and their respective income and expenditures for all years
-        <button type="button">Display all expenditures</button>
+    <p>-- get all club ids and names and their respective income and expenditures for all years </p>
+    <form>
+        <button type="button" id="display-cashflows-button">Display all expenditures</button>
     </form>
-    </p>    
 
+    <p> -- get all players and their current information </p>  
+    <form>
+        <button type="button" id="display-players-button">Display all players</button>
+    </form> 
    
-    <p> -- get all players and their current information
-        <button type="button">Display all players</button>
+    <p> -- get all leagues that a club has been part of</p>
+
+    <form>
+      <p>
+        <label for="Choose a club">Choose a club:</label>
+        <select id="leagues-club-select">
+          <!-- This will be dynamically generated later -->
+          <!-- each option will have its DB id attached to it as an HTML id attribute-->
+          <option value="Arsenal">Arsenal</option>
+          <option value="PSG">PSG</option>
+          <option value="Roma">Roma</option>
+          <option value="Athletico Madrid">Athletico Madrid</option>
+          <option value="Malmo FC">Malmo FC</option>
+        </select>
+
+        <button type="button" id="display-leagues-of-clubs-button">Display all leagues from this club</button>
+      </p>
     </form>
-    </p>    
 
-  <p>-- add a new player
-  <form >
-    First name: <input type = "text" name = "first_name_input" maxlength= 100/>
-    <br>
-    Last name: <input type = "text" name = "last_name_input" maxlength= 100/>
-    <br>
-    Country of origin: <input type = "text" name = "country_id_input" maxlength= 100/>
-    <br>
-    Fee: <input type = "number" name = "fee_input" />
-    <br>
-    Market val: <input type = "number" name = "fee_input" />
-    <br>
-    <button type="button">Add player</button>
+    <p>-- get information about a specific player</p>
+    <form>
+      <p>
+        <label for="select a player">Select a player:</label>
+        <select id="player-select">
+          <!-- This will be dynamically generated later -->
+          <option></option>
+        </select>
+      </p>
+      <button type="button" id="get-player-button">Get player info</button>
+    </form>
 
- </form></p>
+    <p>-- get all cashflow from a specific club</p>
+    <form>
+        <p>
+          <label for="cashflow-club-select">Choose a club:</label>
+          <select id="cashflow-club-select">
+            <!-- This will be dynamically generated later -->
+            <!-- each option will have its DB id attached to it as an HTML id attribute-->
+            <option value="Arsenal">Arsenal</option>
+            <option value="PSG">PSG</option>
+            <option value="Roma">Roma</option>
+            <option value="Athletico Madrid">Athletico Madrid</option>
+            <option value="Malmo FC">Malmo FC</option>
+          </select>
+        </p>
+        <button type="button" id="get-cash-flow-button">Get club cash flow</button>
+    </form>
 
-  <p>-- add a new club
- <form >
-  Club name: <input type = "text" name = "club_name" maxlength= 100/>
-  <br>
-  <button type="button">Add club</button>
-</form></p>
-
-
-<p>-- add a new cashflow record
+    <p>-- add a new player</p>
     <form >
-     Club id: <input type = "number" name = "club_id"/>
-     <br>
-     Cashflow year: <input type = "number" name = "cashflow_year"/>
-     <br>
-     Income amount: <input type = "number" name = "Income"/>
-     <br>
-     Expenditure amount: <input type = "number" name = "Expenditure"/>
-     <br>
-     <button type="button">Add club</button>
-   </form></p>
+      <p>
+        <label for="first name">First name:</label>
+        <input type="text" name="first_name_input" maxlength=100/>
+      </p>
 
+      <p>
+        <label for="last name">Last name:</label>
+        <input type="text" name="last_name_input" maxlength= 100/>
+      </p>
 
-  <p>-- add a new cashflow record
+      <p>
+        <label for="country">Country of origin:</label>
+        <select id="country-select">
+          <!-- This will be dynamically generated later -->
+          <!-- each option will have its DB id attached to it as an HTML id attribute-->
+          <option value="France">France</option>
+          <option value="England">England</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Spain">Spain</option>
+          <option value="Italy">Italy</option>
+        </select>
+      </p>
+      
+      <p>
+        <label for="fee">Fee:</label>
+        <input type="number" name="fee_input" />
+      </p>
+      
+      <button type="button" id="add-player-button">Add player</button>
+    </form>
+
+    <p>-- add a new club</p>
     <form >
-      Club id: <input type = "number" name = "club_id"/>
-      <br>
-      Cashflow year: <input type = "number" name = "cashflow_year"/>
-      <br>
-      Income amount: <input type = "number" name = "Income"/>
-      <br>
-      Expenditure amount: <input type = "number" name = "Expenditure"/>
-      <br>
-      <button type="button">Add club</button>
-    </form></p>
+      <p>
+        <label for="club-select">Club name:</label>
+        <input type="text" name="club_name" maxlength=100/>
+      </p>  
+      <button type="button" id="add-club-button">Add club</button>
+    </form>
 
 
-    <p>-- associate a club with a league (M-to-M relationship addition)
+    <p>-- add a new cashflow record</p>
+    <form>
+      <p>
+        <label for="club name">Club name:</label>
+        <select id="club-select">
+          <!-- This will be dynamically generated later -->
+          <!-- each option will have its DB id attached to it as an HTML id attribute-->
+          <option value="Arsenal" id=":club_id">Arsenal</option>
+          <option value="PSG">PSG</option>
+          <option value="Roma">Roma</option>
+          <option value="Athletico Madrid">Athletico Madrid</option>
+          <option value="Malmo FC">Malmo FC</option>
+        </select>
+      </p>
+      <p>
+        <label for="year">Cashflow year: </label>
+        <input type="number" name="cashflow_year"/>
+      </p>  
+      <p>
+        <label for="amount">Amount: </label>
+        <input type="number" name="amount"/>
+      </p>
+      <button type="button">Add cashflow</button>
+    </form>
+
+
+    <p>-- associate a club with a league (M-to-M relationship addition)</p>
     <form >
-        Club id: <input type = "number" name = "club_id"/>
-        <br>
-        League id: <input type = "number" name = "league_id"/>
-        <br>
-        Cashflow year: <input type = "number" name = "cashflow_year"/>
-        <br>
-        <button type="button">Create </button>
-      </form></p>
+      <p>
+        <label for="club name">Club name:</label>
+        <select id="club-select">
+          <!-- This will be dynamically generated later -->
+          <!-- each option will have its DB id attached to it as an HTML id attribute-->
+          <option value="Arsenal" id=":club_id">Arsenal</option>
+          <option value="PSG">PSG</option>
+          <option value="Roma">Roma</option>
+          <option value="Athletico Madrid">Athletico Madrid</option>
+          <option value="Malmo FC">Malmo FC</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="league name">League name:</label>
+        <select id="league-select">
+          <!-- This will be dynamically generated later -->
+          <!-- each option will have its DB id attached to it as an HTML id attribute-->
+          <option value="Europa" id=":club_id">Europa</option>
+          <option value="Premier">Premier</option>
+          <option value="Champions">Champions</option>
+          <option value="La Liga">La Liga</option>
+          <option value="League 1">League 1</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="year">Year:</label>      
+        <input type = "number" name="year"/>
+      </p>
+      
+      <button type="button" id="add-club-to-league-button">Add club to league</button>
+    </form>
+    
+    <p>-- update a player's information</p>
+    <form>
+      <p>
+        <label for="Choose a player">Choose a player:</label>
+        <select id="player-select">
+          <!-- This will be dynamically generated later -->
+          <option value="Robin Van Persie">Robin Van Persie</option>
+          <option value="Serge Gnarby">Serge Gnarby</option>
+          <option value="Romeo Lukaku">Romeo Lukaku</option>
+          <option value="Antoine Griezmann">Antoine Griezmann</option>
+          <option value="Zlatan Ibrahimovic">Zlatan Ibrahimovic</option>
+        </select>
+
+        <p>
+          <label for="first name">First name:</label>
+          <input type="text" name="first_name_input" maxlength=100/>
+        </p>
+  
+        <p>
+          <label for="last name">Last name:</label>
+          <input type="text" name="last_name_input" maxlength= 100/>
+        </p>
+
+        <p>
+          <label for="club">Club:</label>
+          <input type="text" name="club_name_input" maxlength=100/>
+        </p>
+  
+        <p>
+            <label for="country of origin">Country of origin:</label>
+            <input type="text" name="country_name_input" maxlength=100/>
+        </p>
+        
+        <p>
+          <label for="fee">Fee:</label>
+          <input type="number" name="fee_input" />
+        </p>
+
+        <p>
+          <label for="market_value">Market value:</label>
+          <input type="number" name="market_value_input" />
+        </p>
+
+        <button type="button" id="update-player-button"> Update player's information</button>
+      </p>
+    </form>
+
+    <!-- When displaying all players, you will be able to modify any field in-place and then press update  -->
+
+    <p>-- delete a player</p>
+    <!-- When displaying all players, you will be able to press the delete button and have the row disappear  -->
+    <form>
+      <p>
+        <label for="cashflow-club-select">Choose a player:</label>
+        <select id="cashflow-club-select">
+          <!-- This will be dynamically generated later -->
+          <option value="Robin Van Persie">Robin Van Persie</option>
+          <option value="Serge Gnarby">Serge Gnarby</option>
+          <option value="Romeo Lukaku">Romeo Lukaku</option>
+          <option value="Antoine Griezmann">Antoine Griezmann</option>
+          <option value="Zlatan Ibrahimovic">Zlatan Ibrahimovic</option>
+        </select>
+      </p>
+      <button type="button" id="get-cash-flow-button">Delete player</button>
+  </form>
 
     
-    <p>-- update a player's information
-        <form >
-            First name: <input type = "text" name = "first_name_input" maxlength= 100/>
-            <br>
-            Last name: <input type = "text" name = "last_name_input" maxlength= 100/>
-            <br>
-            Country of origin: <input type = "text" name = "country_id_input" maxlength= 100/>
-            <br>
-            Fee: <input type = "number" name = "fee_input" />
-            <br>
-            Market val: <input type = "number" name = "fee_input" />
-            <br>
-            <button type="button">Update player information</button>
-          </form></p>
-
-    <p>-- delete a player
-    <form >
-        Player id: <input type = "number" name = "player_id_input"/>
-        <br>
-        <button type="button">Delete player</button>
-      </form></p>
+    <p>-- update a club's information</p>
     
+    <!-- When displaying all clubs, you will be able to modify any field in-place and then press update  -->
+    <form>
+      <p>
+        <label for="Choose a club">Choose a club:</label>
+        <select id="club-select">
+          <!-- This will be dynamically generated later -->
+            <option value="Arsenal">Arsenal</option>
+            <option value="PSG">PSG</option>
+            <option value="Roma">Roma</option>
+            <option value="Athletico Madrid">Athletico Madrid</option>
+            <option value="Malmo FC">Malmo FC</option>
+        </select>
+
+        <p>
+          <label for="club name">Club name:</label>
+          <input type = "text" name="club_name"/>
+        </p>
+  
+        <p>
+          <label for="league name">League name:</label>      
+          <input type = "text" name="league_name"/>
+        </p>
+  
+        <p>
+          <label for="year">Year:</label>      
+          <input type = "number" name="year"/>
+        </p>
+
+        <button type="button" id="update-club-button"> Update club's information</button>
+      </p>
+    </form>
     
-    <p>-- update a club's information
-        <form >
-            Club name: <input type = "text" name = "club_name" maxlength= 100/>
-            <br>
-            Country: <input type = "text" name = "country_name" maxlength= 100/>
-            <br>
-            <button type="button">Update club</button>
-          </form></p>
-
-    <p>-- delete a club
-        <form >
-            Club id: <input type = "number" name = "club_id_input"/>
-            <br>
-            <button type="button">Delete club</button>
-          </form></p>
+    <p>  -- dis-associate a club from a league (M-to-M relationship deletion)</p>
     
-    <p>  -- dis-associate a certificate from a person (M-to-M relationship deletion)
-        <form >
-            Club id: <input type = "number" name = "club_id_input"/>
-            <br>
-            League id: <input type = "number" name = "league_id_input"/>
-            <br>
-            Year: <input type = "number" name = "year_input"/>
-            <br>
-            <button type="button">Delete club info</button>
-          </form></p>
+    <!-- When displaying all leagues that a club has been part of, you will be able to press the delete button that is visible along the same row  -->
 
+    <!-- Using this as a container for any dynamically rendered content -->
+    <form>
+      <p>
+        <label for="Choose a club">Choose a club:</label>
+        <select id="club-select">
+          <!-- This will be dynamically generated later -->
+            <option value="Arsenal">Arsenal</option>
+            <option value="PSG">PSG</option>
+            <option value="Roma">Roma</option>
+            <option value="Athletico Madrid">Athletico Madrid</option>
+            <option value="Malmo FC">Malmo FC</option>
+        </select>
 
-          <script src="webpage/scripts.js"></script>
-        </body>
+        <p>
+          <label for="club name">Club name:</label>
+          <input type = "text" name="club_name"/>
+        </p>
+  
+        <p>
+          <label for="league name">League name:</label>      
+          <input type = "text" name="league_name"/>
+        </p>
+  
+        <p>
+          <label for="year">Year:</label>      
+          <input type = "number" name="year"/>
+        </p>
 
+        <button type="button" id="update-club-button"> Delete club's information</button>
+      </p>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="webpage/scripts.js"></script>
+  </body>
 </html>
