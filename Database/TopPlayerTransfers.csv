@@ -1,0 +1,206 @@
+,#,PlayerName,Position,Age,Market Value,Departed from,Departed league,Joined,Country,Transfer Fee
+0,1,Lucas Hernández,Centre-Back,23,£63.00m,Atlético Madrid,LaLiga,Bayern Munich,Germany,£72.00m
+1,2,Frenkie de Jong,Central Midfield,22,£67.50m,Ajax,Netherlands,FC Barcelona,LaLiga,£67.50m
+2,3,Luka Jovic,Centre-Forward,21,£49.50m,Benfica,Portugal,E. Frankfurt,Germany,£6.30m
+3,4,Éder Militão,Centre-Back,21,£45.00m,FC Porto,Portugal,Real Madrid,LaLiga,£45.00m
+4,5,Rodrygo,Left Winger,18,£36.00m,Santos FC,Série A,Real Madrid,LaLiga,£40.50m
+5,6,Paco Alcácer,Centre-Forward,25,£36.00m,FC Barcelona,LaLiga,Bor. Dortmund,Germany,£18.90m
+6,7,Aaron Ramsey,Central Midfield,28,£36.00m,Arsenal,England,Juventus,Italy,Free Transfer
+7,8,Giovani Lo Celso,Central Midfield,23,£36.00m,Paris SG,Ligue 1,Real Betis,LaLiga,£19.80m
+8,9,Raúl Jiménez,Centre-Forward,28,£22.50m,Benfica,Portugal,Wolves,England,£34.20m
+9,10,Franck Kessié,Central Midfield,22,£31.50m,Atalanta,Italy,AC Milan,Italy,£21.60m
+10,11,Benjamin Pavard,Centre-Back,23,£31.50m,VfB Stuttgart,Germany,Bayern Munich,Germany,£31.50m
+11,12,Kerem Demirbay,Central Midfield,25,£22.50m,TSG Hoffenheim,Germany,Bay. Leverkusen,Germany,£28.80m
+12,13,Bryan Cristante,Central Midfield,24,£22.50m,Atalanta,Italy,AS Roma,Italy,£18.90m
+13,14,Danny Ings,Centre-Forward,26,£10.80m,Liverpool,England,Southampton,England,£19.98m
+14,15,Alex Meret,Goalkeeper,22,£18.00m,Udinese Calcio,Italy,SSC Napoli,Italy,£19.80m
+15,16,Emil Audero,Goalkeeper,22,£13.50m,Juventus,Italy,Sampdoria,Italy,£18.00m
+16,17,Grzegorz Krychowiak,Defensive Midfield,29,£16.20m,Paris SG,Ligue 1,Loko Moscow,Russia,£11.25m
+17,18,Stefano Sturaro,Central Midfield,26,£9.00m,Juventus,Italy,Genoa,Italy,£14.85m
+18,19,Aarón Martín,Left-Back,22,£14.40m,Espanyol,LaLiga,1.FSV Mainz 05,Germany,£5.40m
+19,20,Jakub Jankto,Central Midfield,23,£13.50m,Udinese Calcio,Italy,Sampdoria,Italy,£13.50m
+20,21,Leander Dendoncker,Defensive Midfield,24,£13.50m,RSC Anderlecht,Belgium,Wolves,England,£12.15m
+21,22,Munas Dabbur,Centre-Forward,27,£13.50m,RB Salzburg,Austria,Sevilla FC,LaLiga,£13.50m
+22,23,Niclas Füllkrug,Centre-Forward,26,£13.50m,Hannover 96,Germany,Werder Bremen,Germany,£5.85m
+23,24,Filip Kostic,Left Midfield,26,£13.50m,Hamburger SV,Germany,E. Frankfurt,Germany,£5.40m
+24,25,Lloyd Kelly,Left-Back,20,£1.80m,Bristol City,England,Bournemouth,England,£13.32m
+25,26,Simone Zaza,Centre-Forward,27,£11.70m,Valencia,LaLiga,Torino,Italy,£10.80m
+26,27,Adem Ljajic,Attacking Midfield,27,£11.70m,Torino,Italy,Besiktas,Turkey,£5.85m
+27,28,Razvan Marin,Central Midfield,22,£8.10m,Standard Liège,Belgium,Ajax,Netherlands,£11.25m
+28,29,Ionut Radu,Goalkeeper,21,£10.80m,Inter,Italy,Genoa,Italy,£7.20m
+29,30,Manuel Locatelli,Central Midfield,21,£10.80m,AC Milan,Italy,Sassuolo,Italy,£9.00m
+30,31,Hannes Wolf,Attacking Midfield,20,£9.00m,RB Salzburg,Austria,RB Leipzig,Germany,£10.80m
+31,32,Emerson,Right-Back,20,£5.40m,Atlético-MG,Série A,FC Barcelona,LaLiga,£10.80m
+32,33,Andrea Petagna,Centre-Forward,23,£9.00m,Atalanta,Italy,SPAL,Italy,£10.80m
+33,34,Ihlas Bebou,Right Winger,25,£10.80m,Hannover 96,Germany,TSG Hoffenheim,Germany,£9.00m
+34,35,Maximilian Wöber,Centre-Back,21,£9.00m,Ajax,Netherlands,Sevilla FC,LaLiga,£9.45m
+35,36,Kevin Mbabu,Right-Back,24,£9.00m,BSC Young Boys,Switzerland,VfL Wolfsburg,Germany,£8.28m
+36,37,Alberto Cerri,Centre-Forward,23,£5.85m,Juventus,Italy,Cagliari Calcio,Italy,£8.10m
+37,38,Pedro Neto,Right Winger,19,£2.25m,Braga,Portugal,Lazio,Italy,£7.65m
+38,39,Luca Mazzitelli,Central Midfield,23,£3.60m,Sassuolo,Italy,Genoa,Italy,£7.20m
+39,40,Luan Cândido,Left-Back,18,-,Palmeiras B,Brazil,RB Leipzig,Germany,£7.20m
+40,41,Zack Steffen,Goalkeeper,24,£4.50m,Columbus Crew,MLS,Man City,England,£7.20m
+41,42,Loum N'Diaye,Defensive Midfield,22,£4.50m,Braga,Portugal,FC Porto,Portugal,£6.75m
+42,43,Luciano Vietto,Centre-Forward,25,£5.40m,Atlético Madrid,LaLiga,Sporting CP,Portugal,£6.75m
+43,44,Merih Demiral,Centre-Back,21,£4.50m,Alanyaspor,Turkey,Sassuolo,Italy,£6.30m
+44,45,Landry Dimata,Centre-Forward,21,£6.30m,VfL Wolfsburg,Germany,RSC Anderlecht,Belgium,£4.50m
+45,46,Andrea Favilli,Centre-Forward,22,£5.40m,Juventus,Italy,Genoa,Italy,£6.30m
+46,47,Lisandro Martínez,Centre-Back,21,£5.40m,Defensa,Primera División,Ajax,Netherlands,£6.30m
+47,48,Rodrigo Becão,Centre-Back,23,£5.85m,EC Bahia,Série A,CSKA Moscow,Russia,£900k
+48,49,Lukas Lerager,Central Midfield,25,£5.40m,G. Bordeaux,Ligue 1,Genoa,Italy,£5.40m
+49,50,Victorien Angban,Central Midfield,22,£1.13m,Chelsea U23,England,FC Metz,Ligue 1,£5.40m
+50,51,Manu Vallejo,Left Winger,22,£4.50m,Cádiz CF,Spain,Valencia,LaLiga,£4.95m
+51,52,Marco Varnier,Centre-Back,20,£2.25m,Cittadella,Italy,Atalanta,Italy,£4.50m
+52,53,Christian Oliva,Defensive Midfield,22,£4.50m,Nacional,Primera División,Cagliari Calcio,Italy,£4.50m
+53,54,Cristian Ansaldi,Left-Back,32,£4.50m,Inter,Italy,Torino,Italy,£2.25m
+54,55,Kik Pierie,Centre-Back,18,£2.70m,Heerenveen,Netherlands,Ajax,Netherlands,£4.50m
+55,56,Marvin Spielmann,Left Midfield,23,£4.50m,FC Thun,Switzerland,BSC Young Boys,Switzerland,?
+56,57,Peru Nolaskoain,Centre-Back,20,£4.50m,Bilbao Athletic,2ª B - Grupo II,Athletic,LaLiga,-
+57,58,Bruno Jordão,Central Midfield,20,£900k,Braga,Portugal,Lazio,Italy,£4.05m
+58,59,Alex Ferrari,Centre-Back,24,£1.35m,Bologna,Italy,Sampdoria,Italy,£4.05m
+59,60,Modibo Sagnan,Centre-Back,20,£540k,Lens,France,Real Sociedad,LaLiga,£4.05m
+60,61,Ángelo Araos,Attacking Midfield,22,£3.60m,U. de Chile,Primera División,Corinthians,Série A,£3.96m
+61,62,Luca Zanimacchia,Right Winger,20,£270k,Genoa,Italy,Juventus U23,Italy,£3.60m
+62,63,Jann-Fiete Arp,Centre-Forward,19,£3.60m,Hamburger SV,Germany,Bayern Munich,Germany,£2.70m
+63,64,Tae-heui Nam,Attacking Midfield,27,£3.60m,Al Duhail,Qatar,Al Sadd,Qatar,?
+64,65,Mexer,Centre-Back,30,£3.60m,Stade Rennais,Ligue 1,G. Bordeaux,Ligue 1,Free Transfer
+65,66,Manuel Pucciarelli,Second Striker,27,£2.07m,FC Empoli,Italy,Chievo Verona,Italy,£3.38m
+66,67,Mimoun Mahi,Left Winger,25,£3.15m,FC Groningen,Netherlands,FC Zürich,Switzerland,Free Transfer
+67,68,Brandley Kuwas,Right Winger,26,£3.15m,Heracles Almelo,Netherlands,Al-Nasr,UAE Gulf League,£2.25m
+68,69,Danilo Moreno Asprilla,Right Winger,30,£3.06m,Al-Ain FC,UAE Gulf League,Shabab,Saudi Arabia,?
+69,70,Kingsley Schindler,Right Winger,25,£2.70m,Holstein Kiel,Germany,1. FC Köln,Germany,Free Transfer
+70,71,Luís Neto,Centre-Back,30,£2.70m,Zenit S-Pb,Russia,Sporting CP,Portugal,Free Transfer
+71,72,Christian Rasmussen,Right Winger,16,-,FCN Youth,Denmark,Ajax U17,Netherlands,£2.70m
+72,73,David Kinsombi,Defensive Midfield,23,£2.70m,Holstein Kiel,Germany,Hamburger SV,Germany,£2.70m
+73,74,Obbi Oulare,Centre-Forward,23,£1.35m,Watford,England,Standard Liège,Belgium,£2.70m
+74,75,Joao Victor,Left Winger,25,£2.70m,LASK,Austria,VfL Wolfsburg,Germany,£1.80m
+75,76,Ivo Pinto,Right-Back,29,£2.70m,Norwich,England,Dinamo Zagreb,Croatia,Free Transfer
+76,77,Steven Davis,Central Midfield,34,£2.70m,Southampton,England,Rangers,Scotland,Free Transfer
+77,78,Odilon Kossounou,Centre-Back,18,-,Hammarby,Allsvenskan,Club Brugge,Belgium,£2.52m
+78,79,Samuel Di Carmine,Centre-Forward,30,£1.53m,Perugia,Italy,Hellas Verona,Italy,£2.25m
+79,80,Orestis Karnezis,Goalkeeper,33,£2.25m,Udinese Calcio,Italy,SSC Napoli,Italy,£2.25m
+80,81,Morten Thorsby,Central Midfield,23,£2.25m,Heerenveen,Netherlands,Sampdoria,Italy,Free Transfer
+81,83,Evander,Central Midfield,20,£900k,Vasco da Gama,Série A,FC Midtjylland,Denmark,£2.25m
+82,84,Berkay Özcan,Attacking Midfield,21,£2.25m,VfB Stuttgart,Germany,Hamburger SV,Germany,£1.35m
+83,85,Fabian Lustenberger,Defensive Midfield,31,£2.25m,Hertha BSC,Germany,BSC Young Boys,Switzerland,Free Transfer
+84,86,Pirmin Schwegler,Defensive Midfield,32,£2.25m,Hannover 96,Germany,Western Sydney,A-League,Free Transfer
+85,87,José Sá,Goalkeeper,26,£1.80m,FC Porto,Portugal,Olympiacos,Greece,£2.25m
+86,88,José van Rankin,Right-Back,26,£2.07m,UNAM Pumas,Liga MX Apertura,Chivas,Liga MX Apertura,?
+87,89,Rey Manaj,Centre-Forward,22,£1.35m,Inter,Italy,Albacete,Spain,£1.80m
+88,90,Jorge Sáenz,Centre-Back,22,£900k,CD Tenerife,Spain,Valencia,LaLiga,£1.80m
+89,91,Caio,Left Winger,25,£1.80m,Al-Ain FC,UAE Gulf League,Benfica,Portugal,Free Transfer
+90,92,Pawel Dawidowicz,Centre-Back,23,£1.44m,Benfica B,Portugal,Hellas Verona,Italy,£1.80m
+91,93,Ibrahima Seck,Defensive Midfield,29,£1.80m,KRC Genk,Belgium,Zulte Waregem,Belgium,?
+92,95,Konstantinos Stafylidis,Left-Back,25,£1.80m,FC Augsburg,Germany,TSG Hoffenheim,Germany,Free Transfer
+93,96,Ivan Petriak,Left Winger,25,£1.80m,Shakhtar D.,Ukraine,Vidi FC,Hungary,£1.35m
+94,97,Nikita Vlasenko,Centre-Back,18,-,FC Lugano,Switzerland,Juventus U19,Italy,£1.62m
+95,99,Jan Gyamerah,Right-Back,23,£1.35m,VfL Bochum,Germany,Hamburger SV,Germany,Free Transfer
+96,100,Lucas Andersen,Second Striker,24,£1.35m,Grasshoppers,Switzerland,Aalborg BK,Denmark,£603k
+97,101,Igor Diveev,Centre-Back,19,£1.35m,Ufa,Russia,CSKA Moscow,Russia,£1.35m
+98,102,Jeremy Dudziak,Right-Back,23,£1.35m,FC St. Pauli,Germany,Hamburger SV,Germany,Free Transfer
+99,103,Harold Moukoudi,Centre-Back,21,£1.35m,AC Le Havre,Ligue 2,Saint-Étienne,Ligue 1,Free Transfer
+100,104,Kjell Scherpen,Goalkeeper,19,£1.35m,FC Emmen,Netherlands,Ajax,Netherlands,?
+101,105,Toni Fruk,Attacking Midfield,18,-,Mouscron Res.,Belgium,Fiorentina U19,Italy,£1.35m
+102,106,Mateo Klimowicz,Attacking Midfield,18,£900k,Instituto,Primera B Nacional,VfB Stuttgart,Germany,£1.35m
+103,107,Selim Amallah,Attacking Midfield,22,£900k,Mouscron,Belgium,Standard Liège,Belgium,£1.35m
+104,108,Sargis Adamyan,Left Winger,25,£1.35m,Jahn Regensburg,Germany,TSG Hoffenheim,Germany,£1.35m
+105,110,Aristote Nkaka,Defensive Midfield,23,£900k,KV Oostende,Belgium,RSC Anderlecht,Belgium,£900k
+106,111,Lorenzo Montipò,Goalkeeper,23,£720k,Novara,Italy,Benevento,Italy,£900k
+107,112,Edoardo Masciangelo,Left-Back,22,£450k,FC Lugano,Switzerland,Juventus U23,Italy,£900k
+108,116,Steeven Joseph-Monrose,Centre-Forward,28,£900k,FK Qabala,Azerbaijan,Neftchi Baku,Azerbaijan,Free Transfer
+109,118,Caleb Ekuban,Centre-Forward,25,£630k,Leeds,England,Trabzonspor,Turkey,£900k
+110,119,Kylian Hazard,Left Winger,23,£900k,Chelsea U23,England,Cercle Brugge,Belgium,?
+111,120,Dong-won Ji,Centre-Forward,27,£900k,FC Augsburg,Germany,1.FSV Mainz 05,Germany,Free Transfer
+112,121,Ozan Tufan,Central Midfield,24,£900k,Fenerbahce U21,Turkey,Fenerbahce,Turkey,-
+113,122,Pablo Hervías,Right Winger,26,£720k,SD Eibar,LaLiga,Real Valladolid,LaLiga,£900k
+114,123,Jan Van den Bergh,Centre-Back,24,£810k,KFCO Beerschot,Belgium,KAA Gent,Belgium,Free Transfer
+115,124,Davide Faraoni,Right-Back,27,£810k,Crotone,Italy,Hellas Verona,Italy,£270k
+116,125,Lior Refaelov,Attacking Midfield,33,£810k,Club Brugge,Belgium,Royal Antwerp,Belgium,Free Transfer
+117,126,Mattia Sprocati,Right Winger,26,£810k,Lazio,Italy,Parma,Italy,?
+118,127,Jhonatan,Goalkeeper,28,£810k,Moreirense,Portugal,Vit. Guimarães,Portugal,?
+119,128,Vangelis Pavlidis,Centre-Forward,20,£810k,VfL Bochum,Germany,Willem II,Netherlands,?
+120,129,Kenneth Paal,Left-Back,21,£810k,PSV Eindhoven,Netherlands,PEC Zwolle,Netherlands,£315k
+121,130,Richard Neudecker,Central Midfield,22,£810k,FC St. Pauli,Germany,VVV-Venlo,Netherlands,Free Transfer
+122,131,Rodney Ramagalela,Centre-Forward,30,£765k,Polokwane City,South Africa,Highlands Park,South Africa,Free Transfer
+123,132,Adam Hlousek,Left-Back,30,£765k,Legia Warszawa,Ekstraklasa,Viktoria Plzen,Czech Republic,Free Transfer
+124,133,Graeme Shinnie,Defensive Midfield,27,£765k,Aberdeen FC,Scotland,Derby,England,Free Transfer
+125,134,John Yeboah,Left Winger,18,£720k,Wolfsburg U19,Germany,VfL Wolfsburg,Germany,-
+126,135,Álvaro Aguado,Attacking Midfield,23,£720k,Córdoba CF,2ª B - Grupo IV,Real Valladolid,LaLiga,?
+127,136,Mavis Tchibota,Left Winger,23,£450k,Bnei Yehuda,Israel,Ludogorets,Bulgaria,£720k
+128,137,Thomas Pledl,Attacking Midfield,24,£720k,FC Ingolstadt,Germany,F. Düsseldorf,Germany,Free Transfer
+129,138,Gorka Guruzeta,Centre-Forward,22,£720k,Bilbao Athletic,2ª B - Grupo II,Athletic,LaLiga,-
+130,140,Heorhii Tsitaishvili,Right Winger,18,£720k,Dynamo Kyiv II,Ukraine,Dynamo Kyiv,Ukraine,-
+131,141,Sten Grytebust,Goalkeeper,29,£720k,Odense BK,Denmark,FC Copenhagen,Denmark,Free Transfer
+132,142,Panagiotis Tachtsidis,Defensive Midfield,28,£720k,Nottm Forest,England,Lecce,Italy,?
+133,143,Atakan Karazor,Defensive Midfield,22,£585k,Holstein Kiel,Germany,VfB Stuttgart,Germany,£720k
+134,144,Lorenzo Sgarbi,Centre-Forward,18,-,Südtirol,Italy,Napoli U19,Italy,£702k
+135,145,Jordan Jones,Left Midfield,24,£675k,Kilmarnock FC,Scotland,Rangers,Scotland,Free Transfer
+136,146,Joshua Risdon,Right-Back,26,£675k,Western Sydney,A-League,Western United,A-League,Free Transfer
+137,147,Rico Benatelli,Central Midfield,27,£675k,Dynamo Dresden,Germany,FC St. Pauli,Germany,Free Transfer
+138,148,Benedikt Zech,Centre-Back,28,£675k,SCR Altach,Austria,Pogon Szczecin,Ekstraklasa,Free Transfer
+139,149,Yannick Cahuzac,Defensive Midfield,34,£675k,Toulouse,Ligue 1,Lens,France,Free Transfer
+140,150,Paul Seguin,Defensive Midfield,24,£675k,VfL Wolfsburg,Germany,Greuther Fürth,Germany,?
+141,153,Alex Pearce,Centre-Back,30,£675k,Derby,England,Millwall,England,Free Transfer
+142,154,Michalis Manias,Centre-Forward,29,£675k,Asteras Tripoli,Greece,Pogon Szczecin,Ekstraklasa,Free Transfer
+143,155,Alberto Almici,Right-Back,26,£630k,Atalanta,Italy,Hellas Verona,Italy,£450k
+144,156,Massimo Volta,Centre-Back,32,£630k,Perugia,Italy,Benevento,Italy,£540k
+145,157,Gauthier Gallon,Goalkeeper,26,£630k,US Orléans,Ligue 2,Nîmes Olympique,Ligue 1,Free Transfer
+146,158,Sulayman Marreh,Defensive Midfield,23,£630k,Watford U23,England,KAS Eupen,Belgium,?
+147,159,Miguel Castroman,Attacking Midfield,24,£630k,BSC Young Boys,Switzerland,FC Thun,Switzerland,Free Transfer
+148,160,Filip Holender,Left Winger,24,£630k,Honvéd,Hungary,FC Lugano,Switzerland,Free Transfer
+149,161,Andersson Ordóñez,Centre-Back,25,£630k,E. Frankfurt,Germany,LDU Quito,LigaPro Serie A,£405k
+150,162,Nino Kukovec,Centre-Forward,18,-,NK Maribor U17,Slovenia,Fiorentina U19,Italy,£630k
+151,163,Lukas Kalvach,Defensive Midfield,23,£630k,Sigma Olomouc,Czech Republic,Viktoria Plzen,Czech Republic,£540k
+152,164,Nicolás Queiróz,Defensive Midfield,23,£630k,Wanderers,Primera División,CS Emelec,LigaPro Serie A,£405k
+153,165,Nikola Stankovic,Left-Back,25,£585k,Radnicki Nis,Serbia,AE Larisa,Greece,Free Transfer
+154,166,Scott Allan,Central Midfield,27,£540k,Celtic,Scotland,Hibernian FC,Scotland,Free Transfer
+155,167,Antonio Caracciolo,Centre-Back,28,£540k,Hellas Verona,Italy,Cremonese,Italy,£360k
+156,168,Jérémy Vachoux,Goalkeeper,24,£540k,Lens,France,US Orléans,Ligue 2,Free Transfer
+157,169,Benjamin Mokulu Tembe,Centre-Forward,29,£540k,Carpi,Italy,Juventus U23,Italy,?
+158,170,Erich Berko,Left Winger,24,£540k,Dynamo Dresden,Germany,SV Darmstadt 98,Germany,Free Transfer
+159,171,Erik Daniel,Right Midfield,27,£540k,Ruzomberok,Slovakia,Slo. Bratislava,Slovakia,Free Transfer
+160,172,Yaseen Al-Bakhit,Attacking Midfield,30,£540k,Dibba Fujairah,United Arab Emirates,Ittihad Kalba,UAE Gulf League,Free Transfer
+161,173,Roly Bonevacia,Central Midfield,27,£540k,Western Sydney,A-League,Faisaly,Saudi Arabia,Free Transfer
+162,174,Adrian Grbic,Centre-Forward,22,£540k,SCR Altach,Austria,Clermont Foot,Ligue 2,Free Transfer
+163,175,Filip Kurto,Goalkeeper,27,£540k,Wellington P.,A-League,Western United,A-League,Free Transfer
+164,176,Hamdan Al-Shammari,Left-Back,22,£495k,Faisaly,Saudi Arabia,Ittihad,Saudi Arabia,?
+165,177,Mouhssine Moutouali,Right Winger,33,£495k,Al Ahli,Qatar,Raja Casablanca,Morocco,Free Transfer
+166,178,Ernestas Setkus,Goalkeeper,33,£450k,Hapoel Haifa,Israel,B. Jerusalem,Israel,Free Transfer
+167,179,Mo El Hankouri,Left Winger,21,£450k,Feyenoord,Netherlands,FC Groningen,Netherlands,Free Transfer
+168,180,Pierre-Yves Ngawa,Right-Back,27,£450k,Perugia,Italy,Foggia,Italy,?
+169,181,Mitchel Bakker,Left-Back,18,£450k,Ajax U21,Netherlands,Paris SG B,France,Free Transfer
+170,182,Neftali Manzambi,Centre-Forward,22,£450k,FC Basel,Switzerland,Sporting Gijón,Spain,?
+171,183,Marco Rüedi,Central Midfield,21,£450k,Luzern U21,Switzerland,FC Luzern,Switzerland,-
+172,184,Jérôme Thiesson,Right-Back,31,£450k,Rapperswil-Jona,Switzerland,FC Aarau,Switzerland,Free Transfer
+173,186,Craig Halkett,Centre-Back,23,£450k,Livingston FC,Scotland,Heart of Midl.,Scotland,Free Transfer
+174,187,Milos Filipovic,Right Midfield,29,£450k,Zrinjski Mostar,Bosnia-Herzegovina,AE Larisa,Greece,Free Transfer
+175,188,Benjamin Goller,Right Winger,20,£450k,FC Schalke 04,Germany,Werder Bremen,Germany,Free Transfer
+176,190,Aziz,Centre-Forward,20,£450k,Vizela,Portugal,Vit. Guimarães,Portugal,£180k
+177,191,Kyle McFadzean,Centre-Back,32,£450k,Burton Albion,England,Coventry,England,Free Transfer
+178,192,Alhaji Kamara,Centre-Forward,25,£450k,Vendsyssel FF,Denmark,Randers FC,Denmark,Free Transfer
+179,194,Jean-Marc Makusu,Centre-Forward,27,£135k,AS Vita Club,DR Congo,RS Berkane,Morocco,£405k
+180,195,Razvan Oaida,Central Midfield,21,£405k,FC Botosani,Romania,FCSB,Romania,?
+181,196,Abdullah Al-Shamekh,Left-Back,25,£405k,Al-Raed,Saudi Arabia,Shabab,Saudi Arabia,Free Transfer
+182,197,Nils Butzen,Right-Back,26,£405k,1.FC Magdeburg,Germany,Hansa Rostock,Germany,Free Transfer
+183,198,Tunahan Cicek,Centre-Forward,27,£405k,NE Xamax,Switzerland,FC Vaduz,Liechtenstein,Free Transfer
+184,199,Gianluca Frontino,Attacking Midfield,29,£383k,FC Aarau,Switzerland,FC Diessenhofen,Switzerland,Free Transfer
+185,200,Oliver Hüsing,Centre-Back,26,£383k,Hansa Rostock,Germany,1.FC Heidenheim,Germany,Free Transfer
+186,202,Niclas Stierlin,Defensive Midfield,19,£360k,RB Leipzig U19,Germany,RB Leipzig,Germany,-
+187,203,Mohammed Majrashi,Second Striker,27,£360k,Ohod Al-Medina,Saudi Arabia,Faisaly,Saudi Arabia,?
+188,204,Matthew Millar,Right-Back,22,£360k,Central Coast,A-League,Newcastle,A-League,Free Transfer
+189,206,Mads Hvilsom,Centre-Forward,26,£360k,Esbjerg fB,Denmark,Hobro IK,Denmark,Free Transfer
+190,209,Liam Polworth,Central Midfield,24,£360k,Inverness Cal.,Scotland,Motherwell FC,Scotland,Free Transfer
+191,211,Daniel Georgievski,Right-Back,31,£360k,Newcastle,A-League,Western Sydney,A-League,Free Transfer
+192,212,Saleh Chihadeh,Centre-Forward,24,£360k,SC Kriens,Switzerland,FC Thun,Switzerland,Free Transfer
+193,213,Konrad Michalak,Right Winger,21,£360k,Lechia Gdansk,Ekstraklasa,Akhmat Grozny,Russia,?
+194,214,Mark Reynolds,Centre-Back,32,£360k,Aberdeen FC,Scotland,Dundee United,Scotland,Free Transfer
+195,215,Taxiarchis Fountas,Second Striker,23,£360k,SKN St. Pölten,Austria,Rapid Vienna,Austria,Free Transfer
+196,216,Aboubakar Keita,Defensive Midfield,21,£360k,FC Copenhagen,Denmark,OH Leuven,Belgium,?
+197,217,Andre de Jong,Second Striker,22,£360k,Eastern Sub.,New Zealand,AmaZulu FC,South Africa,Free Transfer
+198,218,Evripidis Giakos,Attacking Midfield,28,£360k,PAS Giannina,Greece,AE Larisa,Greece,Free Transfer
+199,219,Ben Vahaba,Centre-Back,27,£360k,Hapoel Raanana,Israel,Hapoel Haifa,Israel,Free Transfer
+200,220,Brendan Hamill,Centre-Back,26,£360k,Western Sydney,A-League,Western United,A-League,Free Transfer
+201,222,Joey van den Berg,Defensive Midfield,33,£315k,Reading,England,NEC Nijmegen,Netherlands,Free Transfer
+202,223,Mathias Nielsen,Centre-Back,28,£315k,AC Horsens,Denmark,Randers FC,Denmark,Free Transfer
+203,224,Jari Schuurman,Attacking Midfield,22,£315k,Feyenoord U21,Netherlands,FC Dordrecht,Netherlands,Free Transfer
+204,225,Connor Pain,Left Winger,25,£315k,Central Coast,A-League,Western United,A-League,Free Transfer
