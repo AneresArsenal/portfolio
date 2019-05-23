@@ -1,3 +1,22 @@
+
+-- MySQL dump 10.13  Distrib 5.1.66, for redhat-linux-gnu (x86_64)
+--
+-- Host: mysql.eecs.oregonstate.edu    Database: CS340
+-- ------------------------------------------------------
+-- Server version	5.1.65-community-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+
 --
 -- Table structure for table `club`
 --
@@ -39,40 +58,6 @@ LOCK TABLES `cashflow` WRITE;
 /*!40000 ALTER TABLE `cashflow` DISABLE KEYS */;
 INSERT INTO `cashflow` VALUES (1,1,2005, 100000),(2,1,2005, -100000),(3,2,2010, 12345),(4,2,2011, 678910);
 /*!40000 ALTER TABLE `cashflow` ENABLE KEYS */;
-UNLOCK TABLES;
-
-
---
--- Table structure for table `player`
---
-DROP TABLE IF EXISTS `player`;
-CREATE TABLE `player`(
-    `id` int(11) NOT NULL AUTO_INCREMENT,
-    `club_id` int(11) DEFAULT NULL,
-    `first_name` varchar(100) NOT NULL,
-    `last_name` varchar(100) NOT NULL,
-    `country_id` int(11) NOT NULL,
-    `fee` int(11) NOT NULL DEFAULT 0,
-    `market_value` int(11) NOT NULL DEFAULT 0,
-    PRIMARY KEY (`id`),
-    CONSTRAINT `player_club` FOREIGN KEY (`club_id`) REFERENCES `club` (`id`) ON DELETE SET NULL ON UPDATE CASCADE, 
-    CONSTRAINT `player_country` FOREIGN KEY (`country_id`) REFERENCES `country` (`id`)
-)ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
-
---
--- Dumping data for table `player`
---
-
-LOCK TABLES `player` WRITE;
-/*!40000 ALTER TABLE `player` DISABLE KEYS */;
-INSERT INTO `player` VALUES 
-(1,1,"Zlatan","Ibrahimovic", 2, 1000000, 15000000),
-(2,1,"Harry","Kane", 1, 10, 50000),
-(3,2,"Thierry","Henry", 5, 9999, 150),
-(4,2,"Robin","Van Persie", 3, 1000, 3000);
-/*!40000 ALTER TABLE `player` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -141,3 +126,36 @@ LOCK TABLES `club_league` WRITE;
 INSERT INTO `club_league` VALUES (1,1,2000),(2,1,1999),(3,2,2003),(4,3, 2006),(5,4, 1988), (6,5, 1989);
 /*!40000 ALTER TABLE `club_league` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `player`
+--
+DROP TABLE IF EXISTS `player`;
+CREATE TABLE `player`(
+    `id` int(11) NOT NULL AUTO_INCREMENT,
+    `club_id` int(11) DEFAULT NULL,
+    `name` varchar(100) NOT NULL,
+    `country_id` int(11) NOT NULL,
+    `fee` int(11) NOT NULL DEFAULT 0,
+    `market_value` int(11) NOT NULL DEFAULT 0,
+    PRIMARY KEY (`id`),
+    CONSTRAINT `player_club` FOREIGN KEY (`club_id`) REFERENCES `club` (`id`) ON DELETE SET NULL ON UPDATE CASCADE, 
+    CONSTRAINT `player_country` FOREIGN KEY (`country_id`) REFERENCES `country` (`id`)
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+--
+-- Dumping data for table `player`
+--
+
+LOCK TABLES `player` WRITE;
+/*!40000 ALTER TABLE `player` DISABLE KEYS */;
+INSERT INTO `player` VALUES 
+(1,1,"Zlatan Ibrahimovic", 2, 1000000, 15000000),
+(2,1,"Harry Kane", 1, 10, 50000),
+(3,2,"Thierry Henry", 5, 9999, 150),
+(4,2,"Robin Van Persie", 3, 1000, 3000);
+/*!40000 ALTER TABLE `player` ENABLE KEYS */;
+UNLOCK TABLES;
+
