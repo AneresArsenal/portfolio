@@ -134,7 +134,8 @@ DROP TABLE IF EXISTS `player`;
 CREATE TABLE `player`(
     `id` int(11) NOT NULL AUTO_INCREMENT,
     `club_id` int(11) DEFAULT NULL,
-    `name` varchar(100) NOT NULL,
+    `first_name` varchar(100) NOT NULL,
+    `last_name` varchar(100) NOT NULL,
     `country_id` int(11) NOT NULL,
     `fee` int(11) NOT NULL DEFAULT 0,
     `market_value` int(11) NOT NULL DEFAULT 0,
@@ -152,10 +153,10 @@ CREATE TABLE `player`(
 LOCK TABLES `player` WRITE;
 /*!40000 ALTER TABLE `player` DISABLE KEYS */;
 INSERT INTO `player` VALUES 
-(1,1,"Zlatan Ibrahimovic", 2, 1000000, 15000000),
-(2,1,"Harry Kane", 1, 10, 50000),
-(3,2,"Thierry Henry", 5, 9999, 150),
-(4,2,"Robin Van Persie", 3, 1000, 3000);
+(1,1,"Zlatan", "Ibrahimovic", 2, 1000000, 15000000),
+(2,1,"Harry", "Kane", 1, 10, 50000),
+(3,2,"Thierry", "Henry", 5, 9999, 150),
+(4,2,"Robin", "Van Persie", 3, 1000, 3000);
 /*!40000 ALTER TABLE `player` ENABLE KEYS */;
 UNLOCK TABLES;
 

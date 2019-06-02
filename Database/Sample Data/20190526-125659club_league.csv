@@ -1,0 +1,751 @@
+,club,league,year
+0,Manchester City,Premier League,2016
+1,Juventus FC,Serie A,2016
+2,Manchester United,Premier League,2016
+3,Inter Milan,Serie A,2016
+4,Paris Saint-Germain,Ligue 1,2016
+5,Chelsea FC,Premier League,2016
+6,FC Barcelona,LaLiga,2016
+7,Shanghai SIPG,Super League,2016
+8,Borussia Dortmund,Bundesliga,2016
+9,Arsenal FC,Premier League,2016
+10,Crystal Palace,Premier League,2016
+11,AS Roma,Serie A,2016
+12,SSC Napoli,Serie A,2016
+13,Leicester City,Premier League,2016
+14,Everton FC,Premier League,2016
+15,Aston Villa,Championship,2016
+16,Tottenham Hotspur,Premier League,2016
+17,West Ham United,Premier League,2016
+18,VfL Wolfsburg,Bundesliga,2016
+19,Liverpool FC,Premier League,2016
+20,Sevilla FC,LaLiga,2016
+21,Atlético Madrid,LaLiga,2016
+22,RB Leipzig,Bundesliga,2016
+23,Hebei China Fortune,Super League,2016
+24,Tianjin Quanjian,Super League,2016
+25,Bayern Munich,Bundesliga,2016
+26,Watford FC,Premier League,2016
+27,Southampton FC,Premier League,2016
+28,Newcastle United,Championship,2016
+29,Swansea City,Premier League,2016
+30,Bayer 04 Leverkusen,Bundesliga,2016
+31,Villarreal CF,LaLiga,2016
+32,AS Monaco,Ligue 1,2016
+33,Olympique Marseille,Ligue 1,2016
+34,Middlesbrough FC,Premier League,2016
+35,Burnley FC,Premier League,2016
+36,Hamburger SV,Bundesliga,2016
+37,SL Benfica,Liga NOS,2016
+38,FC Schalke 04,Bundesliga,2016
+39,UC Sampdoria,Serie A,2016
+40,Sunderland AFC,Premier League,2016
+41,AFC Bournemouth,Premier League,2016
+42,FC Porto,Liga NOS,2016
+43,Hull City,Premier League,2016
+44,Rubin Kazan,Premier Liga,2016
+45,Stoke City,Premier League,2016
+46,Borussia Mönchengladbach,Bundesliga,2016
+47,West Bromwich Albion,Premier League,2016
+48,Beijing Sinobo Guoan,Super League,2016
+49,Wolverhampton Wanderers,Championship,2016
+50,Valencia CF,LaLiga,2016
+51,Ajax Amsterdam,Eredivisie,2016
+52,Shanghai Greenland Shenhua,Super League,2016
+53,Sporting CP,Liga NOS,2016
+54,SS Lazio,Serie A,2016
+55,Jiangsu Suning,Super League,2016
+56,Bologna FC 1909,Serie A,2016
+57,Changchun Yatai,Super League,2016
+58,Real Madrid,LaLiga,2016
+59,1.FSV Mainz 05,Bundesliga,2016
+60,RSC Anderlecht,Jupiler Pro League,2016
+61,Shandong Luneng Taishan,Super League,2016
+62,Torino FC,Serie A,2016
+63,Olympique Lyon,Ligue 1,2016
+64,AC Milan,Serie A,2016
+65,Tianjin Teda,Super League,2016
+66,Shenzhen FC,League One,2016
+67,Sociedade Esportiva Palmeiras,Série A,2016
+68,Norwich City,Championship,2016
+69,Deportivo Guadalajara,Liga MX Clausura,2016
+70,Genoa CFC,Serie A,2016
+71,Fulham FC,Championship,2016
+72,Spartak Moscow,Premier Liga,2016
+73,TSG 1899 Hoffenheim,Bundesliga,2016
+74,Tigres UANL,Liga MX Clausura,2016
+75,SV Werder Bremen,Bundesliga,2016
+76,Zenit St. Petersburg,Premier Liga,2016
+77,Galatasaray SK,Süper Lig,2016
+78,FC Augsburg,Bundesliga,2016
+79,US Sassuolo,Serie A,2016
+80,Real Betis Balompié,LaLiga,2016
+81,LOSC Lille,Ligue 1,2016
+82,Guangzhou Evergrande Taobao,Super League,2016
+83,VfB Stuttgart,2.Bundesliga,2016
+84,Udinese Calcio,Serie A,2016
+85,RCD Espanyol Barcelona,LaLiga,2016
+86,Real Sociedad,LaLiga,2016
+87,São Paulo Futebol Clube,Série A,2016
+88,CF América,Liga MX Clausura,2016
+89,CD Cruz Azul,Liga MX Clausura,2016
+90,Derby County,Championship,2016
+91,KAA Gent,Jupiler Pro League,2016
+92,Atlanta United FC,MLS,2016
+93,Sport Club Internacional,Série B,2016
+94,Henan Jianye,Super League,2016
+95,Club Atlético River Plate,Primera División,2016
+96,ACF Fiorentina,Serie A,2016
+97,Trabzonspor,Süper Lig,2016
+98,OGC Nice,Ligue 1,2016
+99,Besiktas JK,Süper Lig,2016
+100,FC Basel 1893,Super League,2016
+101,Club Atlético Boca Juniors,Primera División,2016
+102,Delfino Pescara 1936,Serie A,2016
+103,KRC Genk,Jupiler Pro League,2016
+104,Olympiacos Piraeus,Super League,2016
+105,FC Toulouse,Ligue 1,2016
+106,Queens Park Rangers,Championship,2016
+107,Standard Liège,Jupiler Pro League,2016
+108,Bristol City,Championship,2016
+109,Málaga CF,LaLiga,2016
+110,Liaoning FC,Super League,2016
+111,Club Brugge KV,Jupiler Pro League,2016
+112,FK Krasnodar,Premier Liga,2016
+113,Clube de Regatas do Flamengo,Série A,2016
+114,Granada CF,LaLiga,2016
+115,SC Freiburg,Bundesliga,2016
+116,Atalanta BC,Serie A,2016
+117,Chievo Verona,Serie A,2016
+118,Wuhan Zall,League One,2016
+119,Sheffield Wednesday,Championship,2016
+120,Birmingham City,Championship,2016
+121,Guizhou Hengfeng,Super League,2016
+122,Real Madrid Castilla,2ª B - Grupo II,2016
+123,Istanbul Basaksehir,Süper Lig,2016
+124,Cagliari Calcio,Serie A,2016
+125,Red Bull Salzburg,Bundesliga,2016
+126,Celtic FC,Premiership,2016
+127,TSV 1860 Munich,2.Bundesliga,2016
+128,Santos FC,Série A,2016
+129,Guangzhou R&F,Super League,2016
+130,FC Girondins Bordeaux,Ligue 1,2016
+131,Reading FC,Championship,2016
+132,FC Copenhagen,Superligaen,2016
+133,Brighton & Hove Albion,Championship,2016
+134,FC Lorient,Rel. Ligue 1,2016
+135,SD Eibar,LaLiga,2016
+136,Leeds United,Championship,2016
+137,US Palermo,Serie A,2016
+138,Celta de Vigo,LaLiga,2016
+139,1. FC Köln,Bundesliga,2016
+140,Fluminense Football Club,Série A,2016
+141,FC Ingolstadt 04,Bundesliga,2016
+142,Cerezo Osaka,J1 League,2016
+143,Cruzeiro Esporte Clube,Série A,2016
+144,Fenerbahce SK,Süper Lig,2016
+145,FC Empoli,Serie A,2016
+146,AS Saint-Étienne,Ligue 1,2016
+147,Maccabi Tel Aviv,Ligat ha'Al,2016
+148,Club Deportivo Maldonado,Segunda División,2016
+149,Club Atlético Rosario Central,Primera División,2016
+150,Hertha BSC,Bundesliga,2016
+151,Al-Hilal Riyadh,King's Cup,2016
+152,Steaua Bukarest,Liga 1 - Championship group,2016
+153,El Ahly Cairo,Premier League,2016
+154,Lokomotiv Moscow,Premier Liga,2016
+155,PAOK Thessaloniki,Super League,2016
+156,CF Monterrey,Liga MX Clausura,2016
+157,Terek Grozny,Premier Liga,2016
+158,Club Atlético Independiente,Primera División,2016
+159,HSC Montpellier,Ligue 1,2016
+160,Racing Club,Primera División,2016
+161,Deportivo Alavés,LaLiga,2016
+162,Deportivo de La Coruña,LaLiga,2016
+163,Santos Laguna,Liga MX Clausura,2016
+164,Rapid Vienna,Bundesliga,2016
+165,Hellas Verona,Serie B,2016
+166,KV Oostende,Jupiler Pro League,2016
+167,Shijiazhuang Ever Bright,League One,2016
+168,Chongqing Dangdai Lifan,Super League,2016
+169,AC Sparta Praha,Fortuna Liga,2016
+170,FC Crotone,Serie A,2016
+171,Club Tijuana,Liga MX Clausura,2016
+172,FC Porto B,Ledman Liga Pro,2016
+173,Al-Ittihad Jeddah,King's Cup,2016
+174,GNK Dinamo Zagreb,1.HNL,2016
+175,Seattle Sounders FC,MLS,2016
+176,PSV Eindhoven,Eredivisie,2016
+177,SCO Angers,Ligue 1,2016
+178,Brentford FC,Championship,2016
+179,Clube Atlético Mineiro,Série A,2016
+180,FC Nantes,Ligue 1,2016
+181,Sport Club Corinthians Paulista,Série A,2016
+182,Beijing Renhe,League One,2016
+183,SC Braga,Liga NOS,2016
+184,Portland Timbers,MLS,2016
+185,Al-Ahli Jeddah,King's Cup,2016
+186,Nottingham Forest,Championship,2016
+187,Al-Shabab Al-Arabi Club,UAE Gulf League,2016
+188,Los Angeles Galaxy,MLS,2016
+189,SK Slavia Prag,Fortuna Liga,2016
+190,Huddersfield Town,Championship,2016
+191,AZ Alkmaar,Eredivisie,2016
+192,Legia Warszawa,Ekstraklasa,2016
+193,Maccabi Haifa,Ligat ha'Al,2016
+194,Cardiff City,Championship,2016
+195,SM Caen,Ligue 1,2016
+196,FC Pro Vercelli 1892,Serie B,2016
+197,Club Atlético Talleres,Primera División,2016
+198,SV Darmstadt 98,Bundesliga,2016
+199,Sevilla Atlético,LaLiga2,2016
+200,Club Atlético San Lorenzo de Almagro,Primera División,2016
+201,Club Universidad de Chile,Torneo Transición,2016
+202,UNAM Pumas,Liga MX Clausura,2016
+203,Eintracht Frankfurt,Bundesliga,2016
+204,Al-Jazira (Abu Dhabi),UAE Gulf League,2016
+205,FK Rostov,Premier Liga,2016
+206,Albirex Niigata,J1 League,2016
+207,1.FC Union Berlin,2.Bundesliga,2016
+208,Gaziantepspor,Süper Lig,2016
+209,Grasshopper Club Zurich,Super League,2016
+210,CD Leganés,LaLiga,2016
+211,Arsenal FC U23,Premier League 2,2016
+212,Zamalek SC,Premier League,2016
+213,Feyenoord Rotterdam,Eredivisie,2016
+214,Real Salt Lake City,MLS,2016
+215,Chicago Fire,MLS,2016
+216,Juventus Primavera,Primavera B,2016
+217,Genclerbirligi Ankara,Süper Lig,2016
+218,Caykur Rizespor,Süper Lig,2016
+219,US Latina Calcio,Serie B,2016
+220,Baoding Yingli ETS,League One,2016
+221,FCO Dijon,Ligue 1,2016
+222,Levante UD,LaLiga2,2016
+223,West Ham United U23,PL2 Playoffs,2016
+224,Al-Wahda FC Abu Dhabi,UAE Gulf League,2016
+225,Al-Ain FC,UAE Gulf League,2016
+226,Al-Nasr (Dubai),UAE Gulf League,2016
+227,Gamba Osaka,J1 League,2016
+228,Montreal Impact,MLS,2016
+229,UD Las Palmas,LaLiga,2016
+230,Sport Club do Recife,Série A,2016
+231,Shanghai Shenxin,League One,2016
+232,Grêmio Foot-Ball Porto Alegrense,Série A,2016
+233,Hannover 96,2.Bundesliga,2016
+234,Panathinaikos Athens,Super League,2016
+235,Barnsley FC,Championship,2016
+236,AS Monaco U19,Monaco,2016
+237,Dynamo Kyiv,Premier Liga,2016
+238,Hapoel Beer Sheva,Ligat ha'Al,2016
+239,Eintracht Braunschweig,2.Bundesliga,2016
+240,Club Atlético Huracán,Primera División,2016
+241,Club Nacional,Primera División,2016
+242,El Tanque Sisley,Primera División,2016
+243,Atlas Guadalajara,Liga MX Clausura,2016
+244,Atlético Nacional,Liga Águila II,2016
+245,Huachipato FC,Torneo Transición,2016
+246,Monarcas Morelia,Liga MX Clausura,2016
+247,CA Peñarol,Primera División,2016
+248,CSD Colo Colo,Torneo Transición,2016
+249,Deportivo Toluca,Liga MX Clausura,2016
+250,FC Barcelona,LaLiga,2017
+251,Manchester City,Premier League,2017
+252,Paris Saint-Germain,Ligue 1,2017
+253,Chelsea FC,Premier League,2017
+254,Everton FC,Premier League,2017
+255,Manchester United,Premier League,2017
+256,AC Milan,Serie A,2017
+257,Liverpool FC,Premier League,2017
+258,Juventus FC,Serie A,2017
+259,Arsenal FC,Premier League,2017
+260,Inter Milan,Serie A,2017
+261,AS Monaco,Ligue 1,2017
+262,Tottenham Hotspur,Premier League,2017
+263,Bayern Munich,Bundesliga,2017
+264,Borussia Dortmund,Bundesliga,2017
+265,Atlético Madrid,LaLiga,2017
+266,AS Roma,Serie A,2017
+267,Zenit St. Petersburg,Premier Liga,2017
+268,Leicester City,Premier League,2017
+269,Beijing Sinobo Guoan,Super League,2017
+270,Sevilla FC,LaLiga,2017
+271,VfL Wolfsburg,Bundesliga,2017
+272,ACF Fiorentina,Serie A,2017
+273,Swansea City,Premier League,2017
+274,Watford FC,Premier League,2017
+275,LOSC Lille,Ligue 1,2017
+276,SSC Napoli,Serie A,2017
+277,Brighton & Hove Albion,Premier League,2017
+278,RB Leipzig,Bundesliga,2017
+279,Olympique Marseille,Ligue 1,2017
+280,Olympique Lyon,Ligue 1,2017
+281,Southampton FC,Premier League,2017
+282,Stoke City,Premier League,2017
+283,West Ham United,Premier League,2017
+284,Huddersfield Town,Premier League,2017
+285,UC Sampdoria,Serie A,2017
+286,Bayer 04 Leverkusen,Bundesliga,2017
+287,Middlesbrough FC,Championship,2017
+288,Valencia CF,LaLiga,2017
+289,Stade Rennais FC,Ligue 1,2017
+290,West Bromwich Albion,Premier League,2017
+291,Atalanta BC,Serie A,2017
+292,FC Schalke 04,Bundesliga,2017
+293,Crystal Palace,Premier League,2017
+294,Sporting CP,Liga NOS,2017
+295,Villarreal CF,LaLiga,2017
+296,Newcastle United,Premier League,2017
+297,Galatasaray SK,Süper Lig,2017
+298,Real Madrid,LaLiga,2017
+299,1. FC Köln,Bundesliga,2017
+300,Real Betis Balompié,LaLiga,2017
+301,Borussia Mönchengladbach,Bundesliga,2017
+302,Burnley FC,Premier League,2017
+303,AFC Bournemouth,Premier League,2017
+304,FC Girondins Bordeaux,Ligue 1,2017
+305,Club Atlético River Plate,Primera División,2017
+306,Athletic Bilbao,LaLiga,2017
+307,US Sassuolo,Serie A,2017
+308,VfB Stuttgart,Bundesliga,2017
+309,Ajax Amsterdam,Eredivisie,2017
+310,Leeds United,Championship,2017
+311,SS Lazio,Serie A,2017
+312,Feyenoord Rotterdam,Eredivisie,2017
+313,OGC Nice,Ligue 1,2017
+314,Celta de Vigo,LaLiga,2017
+315,PSV Eindhoven,Eredivisie,2017
+316,FC Porto,Liga NOS,2017
+317,Wolverhampton Wanderers,Championship,2017
+318,Torino FC,Serie A,2017
+319,Benevento Calcio,Serie A,2017
+320,Racing Club,Primera División,2017
+321,Cagliari Calcio,Serie A,2017
+322,Spartak Moscow,Premier Liga,2017
+323,Dalian Yifang,Super League,2017
+324,Real Sociedad,LaLiga,2017
+325,Olympiacos Piraeus,Super League,2017
+326,CF Monterrey,Liga MX Clausura,2017
+327,Udinese Calcio,Serie A,2017
+328,SC Freiburg,Bundesliga,2017
+329,RSC Anderlecht,Jupiler Pro League,2017
+330,Hull City,Championship,2017
+331,Fenerbahce SK,Süper Lig,2017
+332,Fulham FC,Championship,2017
+333,AS Saint-Étienne,Ligue 1,2017
+334,Hamburger SV,Bundesliga,2017
+335,Hannover 96,Bundesliga,2017
+336,Eintracht Frankfurt,Bundesliga,2017
+337,KAA Gent,Jupiler Pro League,2017
+338,Birmingham City,Championship,2017
+339,SV Werder Bremen,Bundesliga,2017
+340,Genoa CFC,Serie A,2017
+341,São Paulo Futebol Clube,Série A,2017
+342,Inter Milan Primavera,Primavera 1,2017
+343,CD Cruz Azul,Liga MX Clausura,2017
+344,1.FSV Mainz 05,Bundesliga,2017
+345,Club Brugge KV,Jupiler Pro League,2017
+346,Trabzonspor,Süper Lig,2017
+347,AC Sparta Praha,Fortuna Liga,2017
+348,Sheffield Wednesday,Championship,2017
+349,Norwich City,Championship,2017
+350,Jiangsu Suning,Super League,2017
+351,FK Krasnodar,Premier Liga,2017
+352,CF América,Liga MX Clausura,2017
+353,TSG 1899 Hoffenheim,Bundesliga,2017
+354,Reading FC,Championship,2017
+355,Al-Hilal Riyadh,Professional League,2017
+356,Hertha BSC,Bundesliga,2017
+357,CF Pachuca,Liga MX Clausura,2017
+358,Tigres UANL,Liga MX Clausura,2017
+359,Atlanta United FC,MLS,2017
+360,Tianjin Quanjian,Super League,2017
+361,Bristol City,Championship,2017
+362,Standard Liège,Jupiler Pro League,2017
+363,Getafe CF,LaLiga,2017
+364,Besiktas JK,Süper Lig,2017
+365,Nagoya Grampus,J1 League,2017
+366,Cardiff City,Championship,2017
+367,Club Atlético Independiente,Primera División,2017
+368,SCO Angers,Ligue 1,2017
+369,Derby County,Championship,2017
+370,Chongqing Dangdai Lifan,Super League,2017
+371,Cesena Primavera,Primavera 2a,2017
+372,Celtic FC,Premiership,2017
+373,Club Tijuana,Liga MX Clausura,2017
+374,Tianjin Teda,Super League,2017
+375,FC Nantes,Ligue 1,2017
+376,Deportivo Alavés,LaLiga,2017
+377,Delfino Pescara 1936,Serie B,2017
+378,KRC Genk,Jupiler Pro League,2017
+379,Club Atlético Boca Juniors,Primera División,2017
+380,Málaga CF,LaLiga,2017
+381,Rangers FC,Premiership,2017
+382,Bologna FC 1909,Serie A,2017
+383,FC Copenhagen,Superligaen Championship round,2017
+384,SL Benfica,Liga NOS,2017
+385,Junior FC,Liga Águila II,2017
+386,Deportivo de La Coruña,LaLiga,2017
+387,Levante UD,LaLiga,2017
+388,Girona FC,LaLiga,2017
+389,SPAL 2013,Serie A,2017
+390,Sociedade Esportiva Palmeiras,Série A,2017
+391,Los Angeles FC,MLS,2017
+392,Al-Ahli Jeddah,Professional League,2017
+393,Hebei China Fortune,Super League,2017
+394,Cruzeiro Esporte Clube,Série A,2017
+395,Vitória Guimarães SC,Liga NOS,2017
+396,SV Zulte Waregem,Jupiler Pro League,2017
+397,Antalyaspor,Süper Lig,2017
+398,FC Augsburg,Bundesliga,2017
+399,Dynamo Kyiv,Premier Liga,2017
+400,FCSB,Liga 1,2017
+401,FC Empoli,Serie B,2017
+402,PAOK Thessaloniki,Super League,2017
+403,Everton FC U23,Premier League 2,2017
+404,FC Basel 1893,Super League,2017
+405,SM Caen,Ligue 1,2017
+406,SD Eibar,LaLiga,2017
+407,Konyaspor,Süper Lig,2017
+408,Guizhou Hengfeng,Super League,2017
+409,KV Oostende,Jupiler Pro League,2017
+410,Nottingham Forest,Championship,2017
+411,SC Amiens,Ligue 1,2017
+412,Henan Jianye,Super League,2017
+413,Barnsley FC,Championship,2017
+414,Ascoli Picchio,Serie B,2017
+415,Atlético Nacional,Liga Águila II,2017
+416,CD Leganés,LaLiga,2017
+417,Brentford FC,Championship,2017
+418,Zamalek SC,Premier League,2017
+419,BSC Young Boys,Super League,2017
+420,FC Barcelona B,LaLiga2,2017
+421,Al-Nassr FC,Professional League,2017
+422,Club Atlético Rosario Central,Primera División,2017
+423,SC Braga,Liga NOS,2017
+424,Shenzhen FC,League One,2017
+425,Inter Youth,Italy,2017
+426,AZ Alkmaar,Eredivisie,2017
+427,HSC Montpellier,Ligue 1,2017
+428,Sheffield United,Championship,2017
+429,Ajax Amsterdam U19,U19 Eredivisie,2017
+430,New York Red Bulls,MLS,2017
+431,SK Slavia Prag,Fortuna Liga,2017
+432,El Ahly Cairo,Premier League,2017
+433,Dinamo Moscow,Premier Liga,2017
+434,Red Star Belgrade,SuperLiga,2017
+435,Malmö FF,Allsvenskan,2017
+436,UNAM Pumas,Liga MX Clausura,2017
+437,Wuhan Zall,League One,2017
+438,Alanyaspor,Süper Lig,2017
+439,Club Atlético San Lorenzo de Almagro,Primera División,2017
+440,FC Ingolstadt 04,2.Bundesliga,2017
+441,FC Lorient,Ligue 2,2017
+442,SC Heerenveen,Eredivisie,2017
+443,FC Sion,Super League,2017
+444,Clube de Regatas do Flamengo,Série A,2017
+445,FK Rostov,Premier Liga,2017
+446,FC Porto B,Ledman Liga Pro,2017
+447,Beijing Renhe,Super League,2017
+448,Vitesse Arnhem,Eredivisie,2017
+449,Bursaspor,Süper Lig,2017
+450,RCD Espanyol Barcelona,LaLiga,2017
+451,Los Angeles Galaxy,MLS,2017
+452,Lokomotiv Moscow,Premier Liga,2017
+453,Rosenborg BK,Eliteserien,2017
+454,Manchester City U18,U18 Premier League,2017
+455,US Palermo,Serie B,2017
+456,Al-Feiha FC,Professional League,2017
+457,Bröndby IF,Superligaen Championship round,2017
+458,Port FC,Thai League,2017
+459,SG Dynamo Dresden,2.Bundesliga,2017
+460,Sport Club Corinthians Paulista,Série A,2017
+461,Ajax Amsterdam U21,Keuken Kampioen Divisie,2017
+462,Houston Dynamo,MLS,2017
+463,RC Strasbourg Alsace,Ligue 1,2017
+464,Parma Calcio 1913,Serie B,2017
+465,Hapoel Beer Sheva,Ligat ha'Al,2017
+466,KV Mechelen,Jupiler Pro League,2017
+467,Akhmat Grozny,Premier Liga,2017
+468,Sharjah Cultural Sports Club,UAE Gulf League,2017
+469,Istanbul Basaksehir,Süper Lig,2017
+470,Al-Ain FC,UAE Gulf League,2017
+471,Vejle Boldklub,NordicBet LIGA,2017
+472,PFK Ludogorets Razgrad,A Grupa - Championship gr.,2017
+473,CA Osasuna,LaLiga2,2017
+474,Columbus Crew SC,MLS,2017
+475,Ipswich Town,Championship,2017
+476,FC Toulouse,Ligue 1,2017
+477,FCO Dijon,Ligue 1,2017
+478,Brighton & Hove Albion U23,Premier League 2,2017
+479,Club Estudiantes de La Plata,Primera División,2017
+480,Querétaro FC,Liga MX Clausura,2017
+481,Juventus Primavera,Primavera 1,2017
+482,RSC Charleroi,Jupiler Pro League,2017
+483,Brescia Calcio,Serie B,2017
+484,RC Lens,Ligue 2,2017
+485,AC Cesena,Serie B,2017
+486,Club Atlético Colón,Primera División,2017
+487,Real Madrid U19,Spain,2017
+488,Rapid Vienna,Bundesliga,2017
+489,Slovan Bratislava,Fort. Liga - Champ. G.,2017
+490,Hellas Verona,Serie A,2017
+491,Club Universidad de Chile,Primera División,2017
+492,FK Partizan Belgrade,SuperLiga,2017
+493,D.C. United,MLS,2017
+494,Club Necaxa,Liga MX Clausura,2017
+495,FC Midtjylland,Superligaen Championship round,2017
+496,Atlas Guadalajara,Liga MX Clausura,2017
+497,Aalborg BK,Superligaen Championship round,2017
+498,Club Atlético Boston River,Primera División,2017
+499,CA Peñarol,Primera División,2017
+500,Juventus FC,Serie A,2018
+501,Paris Saint-Germain,Ligue 1,2018
+502,Chelsea FC,Premier League,2018
+503,AC Milan,Serie A,2018
+504,Liverpool FC,Premier League,2018
+505,Real Madrid,LaLiga,2018
+506,AS Monaco,Ligue 1,2018
+507,Atlético Madrid,LaLiga,2018
+508,AS Roma,Serie A,2018
+509,FC Barcelona,LaLiga,2018
+510,Valencia CF,LaLiga,2018
+511,Leicester City,Premier League,2018
+512,Wolverhampton Wanderers,Premier League,2018
+513,Fulham FC,Premier League,2018
+514,West Ham United,Premier League,2018
+515,Everton FC,Premier League,2018
+516,Villarreal CF,LaLiga,2018
+517,Guangzhou Evergrande Taobao,Super League,2018
+518,Borussia Dortmund,Bundesliga,2018
+519,AFC Bournemouth,Premier League,2018
+520,Inter Milan,Serie A,2018
+521,Brighton & Hove Albion,Premier League,2018
+522,Manchester United,Premier League,2018
+523,Arsenal FC,Premier League,2018
+524,Sevilla FC,LaLiga,2018
+525,Manchester City,Premier League,2018
+526,SSC Napoli,Serie A,2018
+527,Olympique Marseille,Ligue 1,2018
+528,RB Leipzig,Bundesliga,2018
+529,Stoke City,Championship,2018
+530,Southampton FC,Premier League,2018
+531,FC Schalke 04,Bundesliga,2018
+532,Newcastle United,Premier League,2018
+533,ACF Fiorentina,Serie A,2018
+534,Genoa CFC,Serie A,2018
+535,UC Sampdoria,Serie A,2018
+536,Pyramids FC,Premier League,2018
+537,Cardiff City,Premier League,2018
+538,Huddersfield Town,Premier League,2018
+539,Ajax Amsterdam,Eredivisie,2018
+540,Atalanta BC,Serie A,2018
+541,Al-Ittihad Jeddah,Professional League,2018
+542,Al Duhail Sports Club,Stars League,2018
+543,SS Lazio,Serie A,2018
+544,Al-Nassr FC,Professional League,2018
+545,Torino FC,Serie A,2018
+546,Udinese Calcio,Serie A,2018
+547,US Sassuolo,Serie A,2018
+548,VfB Stuttgart,Bundesliga,2018
+549,Olympique Lyon,Ligue 1,2018
+550,Real Betis Balompié,LaLiga,2018
+551,Shakhtar Donetsk,Premier Liga,2018
+552,CF Monterrey,Liga MX Clausura,2018
+553,CD Cruz Azul,Liga MX Clausura,2018
+554,VfL Wolfsburg,Bundesliga,2018
+555,Clube de Regatas do Flamengo,Série A,2018
+556,Zenit St. Petersburg,Premier Liga,2018
+557,Al-Ahli Jeddah,Professional League,2018
+558,Cagliari Calcio,Serie A,2018
+559,Bologna FC 1909,Serie A,2018
+560,Burnley FC,Premier League,2018
+561,Athletic Bilbao,LaLiga,2018
+562,Sporting CP,Liga NOS,2018
+563,FC Porto,Liga NOS,2018
+564,Borussia Mönchengladbach,Bundesliga,2018
+565,TSG 1899 Hoffenheim,Bundesliga,2018
+566,Bayer 04 Leverkusen,Bundesliga,2018
+567,RSC Anderlecht,Jupiler Pro League,2018
+568,Dalian Yifang,Super League,2018
+569,Watford FC,Premier League,2018
+570,1.FSV Mainz 05,Bundesliga,2018
+571,Celta de Vigo,LaLiga,2018
+572,Tianjin Tianhai,Super League,2018
+573,Club Atlético Boca Juniors,Primera División,2018
+574,OGC Nice,Ligue 1,2018
+575,Nottingham Forest,Championship,2018
+576,Eintracht Frankfurt,Bundesliga,2018
+577,Fenerbahce SK,Süper Lig,2018
+578,Levante UD,LaLiga,2018
+579,SV Werder Bremen,Bundesliga,2018
+580,SL Benfica,Liga NOS,2018
+581,Galatasaray SK,Süper Lig,2018
+582,FK Krasnodar,Premier Liga,2018
+583,SPAL,Serie A,2018
+584,Dynamo Kyiv,Premier Liga,2018
+585,CF América,Liga MX Clausura,2018
+586,Getafe CF,LaLiga,2018
+587,Guangzhou R&F,Super League,2018
+588,Sociedade Esportiva Palmeiras,Série A,2018
+589,Club Brugge KV,Jupiler Pro League,2018
+590,Middlesbrough FC,Championship,2018
+591,PSV Eindhoven,Eredivisie,2018
+592,Parma Calcio 1913,Serie A,2018
+593,FC Girondins Bordeaux,Ligue 1,2018
+594,RCD Espanyol Barcelona,LaLiga,2018
+595,Shenzhen FC,Super League,2018
+596,KRC Genk,Jupiler Pro League,2018
+597,Aston Villa,Championship,2018
+598,Santos Laguna,Liga MX Clausura,2018
+599,Hannover 96,Bundesliga,2018
+600,FC Toulouse,Ligue 1,2018
+601,Spartak Moscow,Premier Liga,2018
+602,CD Leganés,LaLiga,2018
+603,Stade Rennais FC,Ligue 1,2018
+604,Tigres UANL,Liga MX Clausura,2018
+605,Lokomotiv Moscow,Premier Liga,2018
+606,São Paulo Futebol Clube,Série A,2018
+607,FC Empoli,Serie A,2018
+608,SC Freiburg,Bundesliga,2018
+609,Al-Wahda Mekka,Professional League,2018
+610,1. FC Köln,2.Bundesliga,2018
+611,Al-Hilal Riyadh,Professional League,2018
+612,RC Strasbourg Alsace,Ligue 1,2018
+613,KAA Gent,Jupiler Pro League,2018
+614,Stade Reims,Ligue 1,2018
+615,FC Nantes,Ligue 1,2018
+616,Atlanta United FC,MLS,2018
+617,Deportivo Guadalajara,Liga MX Clausura,2018
+618,Celtic FC,Premiership,2018
+619,Beijing Sinobo Guoan,Super League,2018
+620,AS Saint-Étienne,Ligue 1,2018
+621,Benevento Calcio,Serie B,2018
+622,FC Basel 1893,Super League,2018
+623,CF Pachuca,Liga MX Clausura,2018
+624,Red Bull Salzburg,Bundesliga,2018
+625,Derby County,Championship,2018
+626,West Bromwich Albion,Championship,2018
+627,CSKA Moscow,Premier Liga,2018
+628,Shandong Luneng Taishan,Super League,2018
+629,Hertha BSC,Bundesliga,2018
+630,Real Sociedad,LaLiga,2018
+631,Crystal Palace,Premier League,2018
+632,Rangers FC,Premiership,2018
+633,Racing Club,Primera División,2018
+634,Santos FC,Série A,2018
+635,SK Slavia Prag,Fortuna Liga,2018
+636,Leeds United,Championship,2018
+637,Hebei China Fortune,Super League,2018
+638,Henan Jianye,Super League,2018
+639,Tianjin Teda,Super League,2018
+640,Club Tijuana,Liga MX Clausura,2018
+641,Rayo Vallecano,LaLiga,2018
+642,Bristol City,Championship,2018
+643,Chievo Verona,Serie A,2018
+644,New York City FC,MLS,2018
+645,Red Star Belgrade,SuperLiga,2018
+646,Deportivo de La Coruña,LaLiga2,2018
+647,Clube Atlético Mineiro,Série A,2018
+648,Girona FC,LaLiga,2018
+649,HSC Montpellier,Ligue 1,2018
+650,Real Valladolid CF,LaLiga,2018
+651,GNK Dinamo Zagreb,1.HNL,2018
+652,Deportivo Alavés,LaLiga,2018
+653,Bayern Munich,Bundesliga,2018
+654,Standard Liège,Jupiler Pro League,2018
+655,Shenzhen FC Reserves,China,2018
+656,SM Caen,Ligue 1,2018
+657,Club Atlético Independiente,Primera División,2018
+658,Toronto FC,MLS,2018
+659,FC Midtjylland,Superligaen Championship round,2018
+660,PAOK Thessaloniki,Super League,2018
+661,El Ahly Cairo,Premier League,2018
+662,Jiangsu Suning,Super League,2018
+663,Olympiacos Piraeus,Super League,2018
+664,FCO Dijon,Ligue 1,2018
+665,LOSC Lille,Ligue 1,2018
+666,Sport Club Corinthians Paulista,Série A,2018
+667,Wuhan Zall,Super League,2018
+668,Besiktas JK,Süper Lig,2018
+669,FC Metz,Ligue 2,2018
+670,SD Eibar,LaLiga,2018
+671,Sharjah Cultural Sports Club,UAE Gulf League,2018
+672,Changchun Yatai,League One,2018
+673,FC Ingolstadt 04,2.Bundesliga,2018
+674,Club Atlético River Plate,Primera División,2018
+675,Frosinone Calcio,Serie A,2018
+676,Swansea City,Championship,2018
+677,SD Huesca,LaLiga,2018
+678,FK Rostov,Premier Liga,2018
+679,FC Copenhagen,Superligaen Championship round,2018
+680,Los Angeles FC,MLS,2018
+681,AZ Alkmaar,Eredivisie,2018
+682,Fortuna Düsseldorf,Bundesliga,2018
+683,FC Barcelona B,2ª B - Grupo III,2018
+684,Sheffield United,Championship,2018
+685,FC Augsburg,Bundesliga,2018
+686,Urawa Red Diamonds,J1 League,2018
+687,Brentford FC,Championship,2018
+688,Seattle Sounders FC,MLS,2018
+689,SC Braga,Liga NOS,2018
+690,Cruzeiro Esporte Clube,Série A,2018
+691,SC Amiens,Ligue 1,2018
+692,Deportivo Toluca,Liga MX Clausura,2018
+693,Grêmio Foot-Ball Porto Alegrense,Série A,2018
+694,Roma Primavera,Primavera 1,2018
+695,Shanghai Greenland Shenhua,Super League,2018
+696,Asociación Atlética Argentinos Juniors,Primera División,2018
+697,Istanbul Basaksehir,Süper Lig,2018
+698,Norwich City,Championship,2018
+699,Bröndby IF,Superligaen Championship round,2018
+700,Club Atlético Huracán,Primera División,2018
+701,US Palermo,Serie B,2018
+702,Kasimpasa,Süper Lig,2018
+703,Reading FC,Championship,2018
+704,Rapid Vienna,Bundesliga,2018
+705,Juventus Primavera,Primavera 1,2018
+706,Wigan Athletic,Championship,2018
+707,AC Perugia Calcio,Serie B,2018
+708,1.FC Nuremberg,Bundesliga,2018
+709,AEK Athens,Super League,2018
+710,Zamalek SC,Premier League,2018
+711,Club Universidad de Chile,Primera División,2018
+712,Hapoel Beer Sheva,Ligat ha'Al,2018
+713,Alanyaspor,Süper Lig,2018
+714,SCO Angers,Ligue 1,2018
+715,Al-Shabab Riyadh,Professional League,2018
+716,Juventus U23,Serie C - A,2018
+717,Sunderland AFC,League One,2018
+718,Club León FC,Liga MX Clausura,2018
+719,PFK Ludogorets Razgrad,Parva Liga,2018
+720,Real Madrid U19,Spain,2018
+721,US Cremonese,Serie B,2018
+722,FC Crotone,Serie B,2018
+723,UD Las Palmas,LaLiga2,2018
+724,Brescia Calcio,Serie B,2018
+725,FC Dallas,MLS,2018
+726,Delfino Pescara 1936,Serie B,2018
+727,Minnesota United FC,MLS,2018
+728,AC Sparta Praha,Fortuna Liga,2018
+729,Club Atlético San Lorenzo de Almagro,Primera División,2018
+730,Akhmat Grozny,Premier Liga,2018
+731,EA Guingamp,Ligue 1,2018
+732,Ipswich Town,Championship,2018
+733,Atlas Guadalajara,Liga MX Clausura,2018
+734,Konyaspor,Süper Lig,2018
+735,Monarcas Morelia,Liga MX Clausura,2018
+736,FC Groningen,Eredivisie,2018
+737,Millwall FC,Championship,2018
+738,Ferencvárosi TC,NB I.,2018
+739,Vitória Guimarães SC,Liga NOS,2018
+740,US Salernitana 1919,Serie B,2018
+741,Club Atlético Vélez Sarsfield,Primera División,2018
+742,Portimonense SC,Liga NOS,2018
+743,Nîmes Olympique,Ligue 1,2018
+744,Guizhou Hengfeng,League One,2018
+745,Ceará Sporting Club,Série A,2018
+746,Molde FK,Eliteserien,2018
+747,Club Necaxa,Liga MX Clausura,2018
+748,Rosenborg BK,Eliteserien,2018
+749,Puebla FC,Liga MX Clausura,2018
