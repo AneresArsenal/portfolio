@@ -1,0 +1,43 @@
+html
+  head
+    title CS 340 Final
+    link(rel="stylesheet", href="/stylesheets/main.css")
+
+  body 
+    include includes/sidebar.pug
+    h1 Club History
+    
+    //- Basic form to add and to display Leagues and Clubs in the database, respectively
+    form 
+      div
+        label(for="league") League name:
+          select(name="leagues" id="leagues-options")
+            if leagues
+              each league in leagues
+                option(id=`${league.id}`)=league.name
+        label(for="club") Club name:
+          select(name="clubs" id="clubs-options")
+            if clubs
+              each club in clubs
+                option(id=`${club.id}`)=club.name
+        label(for="year") Year:
+        input(type="text" id="year" name="year")
+        button(type="submit" id="submit-league-club-button") Add new league-club relationship
+
+    table
+      thead
+        tr
+          th League name
+          th Club name
+          th Year
+      tbody(id="db-table-body")
+        if results
+          each val in results
+            tr(id= `${val.league_id}-${val.club_id}`)
+              td(id=`${val.league_id}-${val.club_id}-league-name`)= val.league_name
+              td(id=`${val.league_id}-${val.club_id}-club-name`)= val.club_name
+              td(id=`${val.league_id}-${val.club_id}-year`)= val.year
+              td 
+                button(type="submit" id="delete-league-club-button") Delete this record
+    div(id="result-message")
+    script(src="/javascripts/main.js")

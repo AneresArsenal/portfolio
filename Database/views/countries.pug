@@ -1,0 +1,25 @@
+html
+  head
+    title CS 340 Final
+    link(rel='stylesheet', href='/stylesheets/main.css')
+  body 
+    include includes/sidebar.pug
+    h1 Countries
+    form 
+      div
+        label(for="country") Country name:
+        input(type="text" id="country" name="country")
+        button(type="submit" id="submit-country-button") Add new country
+    table
+      thead
+        tr
+          th Country name
+      tbody(id="db-table-body")
+        if results
+          each val in results
+            tr(id= val.id)
+              td(id=`${val.id}-country-name`)= val.country_name
+              td 
+                button(type="submit" id="delete-country-button") Delete this country
+    div(id="result-message")
+    script(src="/javascripts/main.js")

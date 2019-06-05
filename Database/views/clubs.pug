@@ -1,0 +1,24 @@
+html
+  head
+    title CS 340 Final
+    link(rel="stylesheet", href="/stylesheets/main.css")
+
+  body 
+    include includes/sidebar.pug
+    h1 Clubs
+    form 
+      div
+        label(for="league") Club name:
+        input(type="text" id="club-name" name="club-name")
+        button(type="submit" id="submit-club-button") Add new club
+    table
+      thead
+        tr
+          th Name
+      tbody(id="db-table-body")
+        if results
+          each val in results
+            tr(id= val.id)
+              td(id=`${val.id}-name`)= val.name
+    div(id="result-message")
+    script(src="/javascripts/main.js")

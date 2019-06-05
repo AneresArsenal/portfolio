@@ -1,0 +1,31 @@
+html
+  head
+    title CS 340 Final
+    link(rel='stylesheet', href='/stylesheets/main.css')
+
+  body 
+    include includes/sidebar.pug
+    h1 Leagues
+    form 
+      div
+        label(for="league name") Name:
+        input(type="text" id="league-name" name="league-name" required)
+        label(for="club") Country:
+        select(name="countries" id="countries-options")
+          if countries
+            each country in countries
+              option(id=`${country.id}`)=country.name
+        button(type="submit" id="submit-league-button") Add new league
+    table
+      thead
+        tr
+          th League Name
+          th Country
+      tbody(id="db-table-body")
+        if results
+          each val in results
+            tr(id= val.id)
+              td(id=`${val.id}-name`)= val.name
+              td(id=`${val.id}-country`)= val.country_name
+    div(id="result-message")
+    script(src="/javascripts/main.js")

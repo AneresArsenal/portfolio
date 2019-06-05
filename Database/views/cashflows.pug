@@ -1,0 +1,45 @@
+html
+  head
+    title CS 340 Final
+    link(rel='stylesheet', href='/stylesheets/main.css')
+  body 
+    include includes/sidebar.pug
+    h1 Cashflows
+    //- Basic form to add and to display players in the database, respectively
+    form 
+      div
+        h3 Add cashflows
+        label(for="club") Club:
+        select(name="clubs" id="clubs-options")
+          if clubs
+            each club in clubs
+              option(id=`${club.id}`)=club.name
+        label(for="year") Year:
+        input(type="text" id="year" name="year")
+        label(for="amount") Amount:
+        input(type="text" id="amount" name="amount")
+        button(type="submit" id="submit-cashflow-button") Add new cashflow amount
+      div 
+        h3 Filter cashflows
+        label(for="club") Club:
+        select(name="clubs" id="filtered-clubs")
+          if clubs
+            each club in clubs
+              option(id=`${club.id}`)=club.name
+        button(type="submit" id="search-cashflows-button") Show cashflows for this team only
+        button(type="submit" id="show-all-cashflows-button") Show all cashflows
+    table
+      thead
+        tr
+          th Club name
+          th Year
+          th Amount
+      tbody(id="db-table-body")
+        if results
+          each val in results
+            tr(id= val.id)
+              td(id=`${val.id}-club-name`)= val.club_name
+              td(id=`${val.id}-year`)= val.year
+              td(id=`${val.id}-amount`)= val.amount
+    div(id="result-message")
+    script(src="/javascripts/main.js")

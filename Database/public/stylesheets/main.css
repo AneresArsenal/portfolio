@@ -1,0 +1,108 @@
+body {
+  background-color: #83c6f3;
+  color: rgb(59, 57, 57);
+  margin-left: 160px; 
+  padding: 0px 10px;
+  line-height: 32px;
+}
+
+.main {
+  background-color: #83c6f3;
+  color: rgb(59, 57, 57);
+  margin-left: 160px; 
+  padding: 0px 10px;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  background-color: #83c6f3;
+  color: rgb(59, 57, 57);
+  margin-left: 160px; 
+  padding: 0px 10px;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+
+form {
+    background-color: #83c6f3;
+    color: rgb(59, 57, 57);
+    margin-left: 160px; 
+    padding: 0px 10px;
+    line-height: 32px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+table {
+    border: 5px solid rgb(25, 20, 94);
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    text-align: center;
+    margin-left: 160px; 
+    padding: 10px;
+}
+
+thead {
+    border: 1px solid rgb(12, 7, 83);
+    margin-left: 160px; 
+    padding: 10px;
+}
+
+p.main {
+  color: rgb(29, 26, 26); 
+  margin-left: 160px; 
+  font-size: 20;
+  padding: 10px;
+}
+
+sidebar {
+    height: 100%; 
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 0; /* Stay at the top */
+    left: 0;
+    float: center;
+    text-align: center;
+    background-color: rgb(29, 26, 26); 
+    color: #ffffff;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .sidenav {
+    background-color: rgb(29, 26, 26); 
+    margin-bottom: 20px;
+    font-size: 20;
+    color: #ffffff;
+    text-align: center;
+  }
+
+
+  .sidenav a:hover {
+    color: #3225ec;
+    background-color: rgb(94, 94, 94);
+    margin-bottom: 20px;
+  }
+  
+  .sidenav a:active {
+    background-color: #4CAF50;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .sidenav a:link {
+    color: #83c6f3;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  .sidenav a:visited {
+    color: #83c6f3;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  

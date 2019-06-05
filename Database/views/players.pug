@@ -1,0 +1,62 @@
+html
+  head
+    title CS 340 Final
+    link(rel='stylesheet', href='/stylesheets/main.css')
+
+  body 
+    include includes/sidebar.pug
+    h1 Players
+    form 
+      div
+        label(for="first name") First name of player:
+        input(type="text" id="first-name" name="first-name" required)
+        br
+        label(for="Last Name") Last name of player:
+        input(type="text" id="last-name" name="last-name" required)
+        br
+        label(for="club") Club:
+        select(name="clubs" id="clubs-options")
+          option(id="unsigned") Free Agent
+          if clubs
+            each club in clubs
+              option(id=`${club.id}`)=club.name
+        label(for="country") Country:
+        select(name="countries" id ="countries-options")
+          if countries
+            each country in countries
+              option(id=`${country.id}`)=country.name
+        label(for="fee") Fee:
+        input(type="text" id="fee" name="fee" required)
+        br
+        label(for="market value") Market Value:
+        input(type="text" id="market-value" name="market-value" required)
+        br
+        button(type="submit" id="submit-player-button") Add new player
+    table
+      thead
+        tr
+          th First Name
+          th Last Name
+          th Club
+          th Country
+          th Fee
+          th Market Value
+      tbody(id="db-table-body")
+        if results
+          each val in results
+            tr(id= val.id)
+              td(id=`${val.id}-first-name` contenteditable="true")= val.first_name
+              td(id=`${val.id}-last-name` contenteditable="true")= val.last_name
+              if val.club_name
+                td(id=`${val.id}-club-name` class="editable")= val.club_name
+              else
+                td(id=`${val.id}-club-name` class="editable") Free Agent
+              td(id=`${val.id}-country-name` class="editable")= val.country_name
+              td(id=`${val.id}-fee` contenteditable="true")= val.fee
+              td(id=`${val.id}-market-value` contenteditable="true")= val.market_value
+              td 
+                button(type="submit" id="delete-player-button") Delete this player
+              td
+                button(type="submit" id=`${val.id}-edit-player-button`) Edit this player
+    div(id="result-message")
+    script(src="/javascripts/main.js")
