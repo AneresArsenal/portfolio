@@ -15,7 +15,7 @@ body {
 h1.main {
   background-color: #fafafafa;
   color: rgb(59, 57, 57);
-  padding-top: 60px;
+  padding-top: 30px;
   line-height: 32px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -35,6 +35,10 @@ h1.personal {
 p.main {
   color: rgb(29, 26, 26); 
   font-size: 20;
+  padding-bottom: 20px;
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 navbar {
@@ -90,7 +94,7 @@ navbar {
   }
   
 linkbar {
-    height: 40px; 
+    height: 20px; 
     width: 100%; /* Set the width of the navbar */
     bottom: 0; /* Stay at the top */
     left: 0;
@@ -107,7 +111,7 @@ linkbar {
   .linkbar {
     background-color: rgb(29, 26, 26); 
     margin-bottom: 20px;
-    font-size: 20;
+    font-size: 15;
     color: #ffffff;
     text-align: center;
   }
