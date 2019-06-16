@@ -1,67 +1,36 @@
 body {
-  background-color: #83c6f3;
+  background-color: #fafafafa;
   color: rgb(59, 57, 57);
-  margin-left: 160px; 
-  padding: 0px 10px;
   line-height: 32px;
 }
 
 .main {
-  background-color: #83c6f3;
+  background-color: #fafafafa;
   color: rgb(59, 57, 57);
-  margin-left: 160px; 
-  padding: 0px 10px;
+  text-align: center;
   line-height: 32px;
   font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-  background-color: #83c6f3;
+  background-color: #fafafafa;
   color: rgb(59, 57, 57);
-  margin-left: 160px; 
-  padding: 0px 10px;
   line-height: 32px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
 }
 
 
-form {
-    background-color: #83c6f3;
-    color: rgb(59, 57, 57);
-    margin-left: 160px; 
-    padding: 0px 10px;
-    line-height: 32px;
-    font-family: 'Raleway', sans-serif;
-
-}
-
-table {
-    border: 5px solid rgb(25, 20, 94);
-    border-collapse: separate;
-    border-spacing: 50px 0;
-    text-align: center;
-    margin-left: 160px; 
-    padding: 10px;
-}
-
-thead {
-    border: 1px solid rgb(12, 7, 83);
-    margin-left: 160px; 
-    padding: 10px;
-}
 
 p.main {
   color: rgb(29, 26, 26); 
-  margin-left: 160px; 
   font-size: 20;
-  padding: 10px;
 }
 
-sidebar {
-    height: 100%; 
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+navbar {
+    height: 40px; 
+    width: 100%; /* Set the width of the navbar */
+    position: fixed; /* Fixed navbar (stay in place on scroll) */
     top: 0; /* Stay at the top */
     left: 0;
     float: center;
@@ -69,11 +38,11 @@ sidebar {
     background-color: rgb(29, 26, 26); 
     color: #ffffff;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+    padding: 10px;
     font-family: 'Raleway', sans-serif;
   }
 
-  .sidenav {
+  .navbar {
     background-color: rgb(29, 26, 26); 
     margin-bottom: 20px;
     font-size: 20;
@@ -81,28 +50,83 @@ sidebar {
     text-align: center;
   }
 
+  .navbar a {
+    margin: 20px;
+  }
 
-  .sidenav a:hover {
+
+  .navbar a:hover {
     color: #3225ec;
     background-color: rgb(94, 94, 94);
     margin-bottom: 20px;
   }
   
-  .sidenav a:active {
+  .navbar a:active {
     background-color: #4CAF50;
     text-decoration: none;
     margin-bottom: 20px;
   }
 
-  .sidenav a:link {
+  .navbar a:link {
     color: #83c6f3;
     text-decoration: none;
     margin-bottom: 20px;
   }
   
-  .sidenav a:visited {
+  .navbar a:visited {
     color: #83c6f3;
     text-decoration: none;
     margin-bottom: 20px;
   }
   
+linkbar {
+    height: 40px; 
+    width: 100%; /* Set the width of the navbar */
+    bottom: 0; /* Stay at the top */
+    left: 0;
+    float: center;
+    text-align: center;
+    background-color: rgb(29, 26, 26); 
+    color: #ffffff;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    position: fixed; /* Fixed navbar (stay in place on scroll) */
+  }
+
+  .linkbar {
+    background-color: rgb(29, 26, 26); 
+    margin-bottom: 20px;
+    font-size: 20;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .linkbar a {
+    margin: 20px;
+  }
+
+
+  .linkbar a:hover {
+    color: #3225ec;
+    background-color: rgb(94, 94, 94);
+    margin-bottom: 20px;
+  }
+  
+  .linkbar a:active {
+    background-color: #4CAF50;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .linkbar a:link {
+    color: #83c6f3;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  .linkbar a:visited {
+    color: #83c6f3;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
