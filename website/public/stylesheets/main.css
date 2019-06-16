@@ -12,9 +12,19 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-h1 {
+h1.main {
   background-color: #fafafafa;
   color: rgb(59, 57, 57);
+  padding-top: 60px;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+h1.personal {
+  background-color: #fafafafa;
+  color: rgb(59, 57, 57);
+  padding-top: 60px;
   line-height: 32px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
