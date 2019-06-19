@@ -11,8 +11,8 @@ app.set('view engine', 'pug');
 
 // In this example, we have the home page query the players table and send that information
 // to the front end to display as a table
-app.get('/mainpage', (req, res) => {
-  res.render('mainpage');
+app.get('/mainPage', (req, res) => {
+  res.render('mainPage');
 });
 
 app.get('/about', (req, res) => {
@@ -33,6 +33,10 @@ app.get('/projects', (req, res) => {
 
 app.get('/personal', (req, res) => {
   res.render('personal');
+});
+
+app.get('/myStory', (req, res) => {
+  res.render('myStory');
 });
 
 app.listen(port, () => console.log(`db-page listening on port ${port}!`));
