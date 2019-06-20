@@ -1,12 +1,20 @@
 html
   head
     title About Me
-    link(rel="stylesheet", href="/stylesheets/main.css")
+    link(rel="stylesheet", href="/stylesheets/about.css")
 
   include includes/navbar.pug
   include includes/links.pug
 
-  body.main
-    h1 Serena Tay
-    p.main "All we have to decide is what to do with the time that is given us." JRR Tolkien
-    script(src="/javascripts/main.js")
+  body.about
+    h1.about Serena Tay
+    h2.about Software Developer, Data Analytics Enthusiast and Proud Shareholder of Real Oviedo FC 
+    h3.about "It is our choices, Harry, that show what we truly are, far more than our abilities." Professor Albus Dumbledore
+    .row
+      .sideColumn Profile
+        p.about Hello 1
+      .column Professional Experience
+        p.about Hello 1
+      img#headshot(src='/images/headshot.jpg' alt='headshot')
+
+

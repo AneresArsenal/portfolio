@@ -4,7 +4,7 @@ body {
   line-height: 32px;
 }
 
-.main {
+.about {
   background-color: #fafafafa;
   color: rgb(59, 57, 57);
   font-family: 'Raleway', sans-serif;
@@ -12,54 +12,62 @@ body {
   text-align: center;
 }
 
-h1.main {
+h1.about {
   background-color: #fafafafa;
   color: rgb(59, 57, 57);
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   line-height: 32px;
+  margin-top: 80px;
   padding-top: 30px;
 }
 
 
-h1.personal {
+.about {
   background-color: #fafafafa;
   color: rgb(59, 57, 57);
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
   line-height: 32px;
-  padding-top: 60px;
+  text-align: center;
 }
 
-p.main {
+.sideColumn {
+  float: left;
+  font-size: 25;
+  font-weight: bold;
+  padding: 10px;
+  width: 20%;
+}
+
+.column {
+  float: left;
+  font-size: 30;
+  font-weight: bold;
+  padding: 10px;
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+#headshot {
+  float: right;
+  height: 50%;
+  padding-bottom: 10%;
+  width: 18%;
+}
+
+p.about {
   color: rgb(29, 26, 26); 
   font-size: 20;
   margin-left: 40px;
-  margin-right: 40px;
   padding-bottom: 10px;
   text-align: justify;
-}
-
-#counter {
-  color: rgb(29, 26, 26); 
-  font-size: 20;
-  padding-bottom: 20px;
-  text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-p.myStory {
-  color: rgb(29, 26, 26); 
-  font-size: 18;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-bottom: 20px;
-  text-align: justify;
-}
-
-img {
-  margin-top: 70px;
+  
 }
 
 navbar {
