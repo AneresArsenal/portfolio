@@ -11,3 +11,8 @@ const increment = ((num = 0, interval = null) => () => {
 })();
 
 increment();
+
+$('.progress-fill').each(function(){
+  var percent = $(this).html();
+  $(this).parent().css('width', percent);
+});

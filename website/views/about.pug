@@ -1,20 +1,55 @@
 html
   head
     title About Me
-    link(rel="stylesheet", href="/stylesheets/about.css")
-
+    link(rel="stylesheet", href="/stylesheets/main.css")
+    include includes/header.pug
   include includes/navbar.pug
   include includes/links.pug
 
   body.about
     h1.about Serena Tay
     h2.about Software Developer, Data Analytics Enthusiast and Proud Shareholder of Real Oviedo FC 
-    h3.about "It is our choices, Harry, that show what we truly are, far more than our abilities." Professor Albus Dumbledore
     .row
-      .sideColumn Profile
-        p.about Hello 1
+      .sideColumn 
+        .sideHeader Profile
+          p.aboutSide
+            | Software developer and data analyst with six years of management consulting and financial data analysis experience. 
+            | Expansive exposure to biopharmaceutical companies, retail and mining corporations. 
+            | Diligent individual with strong passion for software development.
+        .sideHeader Technical Skill Sets
+          .container
+            .progress-bar
+              .progress-track
+                .progress-fill1 Python (Numpy & Pandas)
+            
+            .progress-bar
+              .progress-track
+                .progress-fill2 SQL
+
+            .progress-bar
+              .progress-track
+                .progress-fill3 C++ and C
+  
+
       .column Professional Experience
-        p.about Hello 1
+        p.about 
+          | Management Consultant KPMG LLP 
+          | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          | 2018 - 2019
+          li.about Conducted current state assessments for multinational mining corporations by leveraging background in financial audit to gather insights for the financial reporting process redesign project
+          li.about Analyzed operational data for property management company to identify cost drivers and derive options to assess possibility of achieving breakeven in future operations
+          li.about Assisted in workshop facilitation to gather system design requirements during ERP vendor selection process
+        p.about 
+          | Staff Accountant KPMG LLP 
+          | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          | 2016 - 2018
+          li.about Conducted current state assessments for multinational mining corporations by leveraging background in financial audit to gather insights for the financial reporting process redesign project
+          li.about Analyzed operational data for property management company to identify cost drivers and derive options to assess possibility of achieving breakeven in future operations
+          li.about Assisted in workshop facilitation to gather system design requirements during ERP vendor selection process
+      
       img#headshot(src='/images/headshot.jpg' alt='headshot')
 
+    h3.quoteBottom "It is our choices, Harry, that show what we truly are, far more than our abilities." Professor Albus Dumbledore
+
+script(href='/javascripts/main.js')
 

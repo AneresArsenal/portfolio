@@ -2,14 +2,37 @@ html
   head
     title Serena Tay
     link(rel="stylesheet", href="/stylesheets/main.css")
-
+    include includes/header.pug
   include includes/navbar.pug
   include includes/links.pug
 
   body.main
+    h2.myStoryTop Once upon a time
+    p.myStory  
+      | Growing up in a small town in Southeast Asia, pursuing software development was never tabled as an option. 
+      | Out of my graduating class, only one person pursued software development
+      | while the rest of us went into law, engineering, medicine and business. 
+      | Albeit being an avid gamer in my teenage years, programming was something that was foreign to me. 
+      | I am always comfortable using computers, but the idea of building software and applications was never something I thought I was capable of.
+    p.myStory  
+      |   Fast forward a few years, my family and I moved to Canada. I was accepted into University of British Columbia and graduated with Honours in Accounting.
+      | For the past seven years, I pursued a career as a CPA accountant and eventually worked as a management consultant. 
+      | Throughout my career, I have worked with organizations across all sectors, from local non-profits and local tech startups to
+      | biopharmaceuticals and multinational mining corporations. I have worked with teams across Canada and on multinational projects in Mexico and Argentina.
     
-    img(src='/images/highway.jpg' alt='highway' width='50%' height = '60%')
-    h3.main 
+    h2.myStory A crossroad appeared
+    p.myStory  
+      | A few years back, I was reflecting on my career and felt like I needed a new challenge. I wanted a career that allows me to create things and to solve problems.
+      | During one of our food adventures, one of my closest friends who is a software developer posed the question "What about software development?"
+      | I thought to myself "I do not think I am good enough." and rubbed it off.
+    p.myStory
+      | A few months later during my 2017 trip to South America, on a train from Cusco to Aguas Calientes, a gentlemen sitting beside me was programming on his laptop and I decided to
+      | strike a conversation with him. Three hours later, my interest in software development kindled. A few days later while in Medina, Colombia, I 
+      | started exploring schools that offer computer science as a second degree and eventually applied for Oregon State University the week I landed back in Vancouver. 
+      | Within a week, I received my acceptance letter and never looked back since. [To be continued...]
+
+    img(src='/images/highway.jpg' alt='highway' width='40%' height = '50%')
+    h3.quoteBottom 
       | "Still round the corner there may wait,
       br
       | A new road or a secret gate,
@@ -22,28 +45,5 @@ html
       br
       | West of the Moon, East of the Sun." - J.R.R. Tolkien
 
-    h2.main Once upon a time
-    p.myStory  
-      | Growing up in a small town in Southeast Asia, pursuing software development was never tabled as an option. 
-      | Out of my graduating class, only one person pursued software development
-      | while the rest of us went into law, engineering, medicine and business. 
-      | Albeit being an avid gamer in my teenage years, programming was something that was foreign to me. 
-      | I am always comfortable using computers, but the idea of building software and applications was never something I thought I was capable of.
-    p.myStory  
-      |   Fast forward a few years, my family and I moved to Canada. I was accepted into University of British Columbia and graduated with Honours in Accounting.
-      | For the past seven years, I pursued a career as a CPA accountant and eventually worked as a management consultant. 
-      | Throughout my career, I have worked with organizations across all sectors, from local non-profits and local tech startups to
-      | biopharmaceuticals and multinational mining corporations. I have worked with teams across Canada and on multinational projects in Mexico and Argentina.
 
-
-    h2.main A crossroad appeared
-    p.myStory  
-      | A few years back, I was reflecting on my career and felt like I needed a new challenge. I wanted a career that allows me to create things and to solve problems.
-      | During one of our food adventures, one of my closest friends who is a software developer posed the question "What about software development?"
-      | I thought to myself "I do not think I am good enough." and rubbed it off.
-    p.myStory
-      | A few months later during my 2017 trip to South America, on a train from Cusco to Aguas Calientes, a gentlemen sitting beside me was programming on his laptop and I decided to
-      | strike a conversation with him. Three hours later, my interest in software development kindled. A few days later while in Medina, Colombia, I 
-      | started exploring schools that offer computer science as a second degree and eventually applied for Oregon State University the week I landed back in Vancouver. 
-      | Within a week, I received my acceptance letter and never looked back since. [To be continued...]
     script(src="/javascripts/main.js")
