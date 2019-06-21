@@ -192,7 +192,7 @@ navbar {
   color: #ffffff;
   float: center;
   font-family: 'Arvo', serif; 
-  height: 40px; 
+  height: 50px; 
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding: 10px;
@@ -244,9 +244,8 @@ linkbar {
   color: #ffffff;
   float: center;
   font-family: 'Arvo', serif; 
-  height: 20px; 
+  height: 50px; 
   left: 0;
-  padding: 15px;
   padding-bottom: 15px;
   position: fixed; /* Fixed navbar (stay in place on scroll) */
   overflow-x: hidden; /* Disable horizontal scroll */
