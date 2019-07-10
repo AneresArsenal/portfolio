@@ -1,13 +1,17 @@
 {
-  "name": "db-page",
+  "name": "personal-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "This example is so cool.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "serena-tay",
   "license": "ISC",
   "dependencies": {
     "counterup2": "^1.0.4",
@@ -17,6 +21,9 @@
     "mysql": "^2.16.0",
     "pug": "^2.0.3",
     "waypoints": "^4.0.1"
+  },
+  "engines": {
+    "node": "10.x"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
