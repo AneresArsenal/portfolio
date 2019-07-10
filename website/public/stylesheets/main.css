@@ -70,6 +70,18 @@ body {
   text-align: center;
 }
 
+.quoteWIP {
+  background-color: #fafafafa;
+  color: rgb(59, 57, 57);
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  line-height: 32px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 60px;
+  text-align: center;
+}
+
 .quoteBottom {
   background-color: #fafafafa;
   color: rgb(59, 57, 57);
