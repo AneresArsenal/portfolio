@@ -1,16 +1,25 @@
 {
-  "name": "db-page",
+  "name": "personal-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "This example is so cool.",
+  "engines": {
+    "node": "10.x"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js",
     "start": "node index.js"
   },
-  "author": "",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "serena-tay",
   "license": "ISC",
   "dependencies": {
     "counterup2": "^1.0.4",
+    "ejs": "^2.6.2",
     "express": "^4.16.4",
     "forever": "^0.15.3",
     "moment": "^2.24.0",
@@ -19,6 +28,12 @@
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://aneresyat.herokuapp.com/"
   }
 }
