@@ -197,6 +197,17 @@ li.main {
   text-align: justify;
 }
 
+li.mainLast {
+  color: rgb(29, 26, 26); 
+  font-size: 20;
+  padding-bottom: 45px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0;
+  text-align: justify;
+}
+
+
 .counter {
   color: rgb(29, 26, 26); 
   font-size: 20;
