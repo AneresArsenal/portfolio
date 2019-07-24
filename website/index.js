@@ -1,38 +1,20 @@
 const express = require('express')
 const bodyParser = require('body-parser');
-const app = express();
-const port = 8898;
+const path = require('path')
+const port = process.env.PORT || 5000
 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-app.use(express.static('public'));
-
-app.set('view engine', 'pug');
-
-// In this example, we have the home page query the players table and send that information
-// to the front end to display as a table
-app.get('/mainpage', (req, res) => {
-  res.render('mainpage');
-});
-
-app.get('/about', (req, res) => {
-  res.render('about');
-});
-
-app.get('/data', (req, res) => {
-  res.render('data');
-});
-
-app.get('/diary', (req, res) => {
-  res.render('diary');
-});
-
-app.get('/projects', (req, res) => {
-  res.render('projects');
-});
-
-app.get('/personal', (req, res) => {
-  res.render('personal');
-});
-
-app.listen(port, () => console.log(`db-page listening on port ${port}!`));
+express()
+  .use(bodyParser.urlencoded({ extended: false }))
+  .use(bodyParser.json())
+  .use(express.static(path.join(__dirname, 'public')))
+  .set('views', path.join(__dirname, 'views'))
+  .set('view engine', 'pug')
+  .get('/', (req, res) => res.render('pages/mainpage'))
+  .get('/mainpage', (req, res) => res.render('pages/mainpage'))
+  .get('/about', (req, res) => res.render('pages/about'))
+  .get('/data', (req, res) => res.render('pages/data'))
+  .get('/diary', (req, res) => res.render('pages/diary'))
+  .get('/projects', (req, res) => res.render('pages/projects'))
+  .get('/personal', (req, res) => res.render('pages/personal'))
+  .get('/myStory', (req, res) => res.render('pages/myStory'))
+  .listen(port, () => console.log(`Listening on ${ port }`))
