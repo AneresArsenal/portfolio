@@ -192,6 +192,17 @@ p.myStory {
   text-align: justify;
 }
 
+p.projects {
+  color: rgb(29, 26, 26);
+  font-family: 'Arvo', serif; 
+  font-size: 18;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 80px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
 li.about {
   color: rgb(29, 26, 26); 
   font-size: 16;
@@ -434,9 +445,9 @@ linkbar {
 
 img
 {
-height:70%;
+height:65%;
 width:30%;
-margin-bottom: 50px;
+margin-bottom: 80px;
 }
 
 #main
