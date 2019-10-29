@@ -129,6 +129,8 @@ h2.about {
   padding-bottom: 30px;
 }
 
+
+
 h2.main {
   background-color: #fafafafa;
   color: rgb(59, 57, 57);
@@ -152,6 +154,29 @@ h2.myStory {
   font-family: 'Gloria Hallelujah', cursive;
   font-weight: bold;
   line-height: 32px;
+}
+
+
+h3.diaryTop {
+  
+  background-color: #fafafafa;
+  color: rgb(59, 57, 57);
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
+  line-height: 32px;
+  margin-left: 15%;
+  margin-top: 80px;
+  text-align: left;
+}
+
+h3.diary{
+  background-color: #fafafafa;
+  color: rgb(59, 57, 57);
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
+  line-height: 32px;
+  margin-left: 15%;
+  text-align: left;
 }
 
 p.main {
@@ -182,6 +207,16 @@ p.about {
   text-align: left;
 }
 
+p.diary {
+  color: rgb(29, 26, 26);
+  font-family: 'Arvo', serif; 
+  font-size: 18;
+  margin-left: 15%;
+  margin-right: 10%;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
 p.myStory {
   color: rgb(29, 26, 26);
   font-family: 'Arvo', serif; 
@@ -192,14 +227,25 @@ p.myStory {
   text-align: justify;
 }
 
+p.projectsTop {
+  color: rgb(29, 26, 26);
+  font-family: 'Arvo', serif; 
+  font-size: 18;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 60px;
+  padding-bottom: 5px;
+  text-align: justify;
+}
+
 p.projects {
   color: rgb(29, 26, 26);
   font-family: 'Arvo', serif; 
   font-size: 18;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 80px;
-  padding-bottom: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: justify;
 }
 
