@@ -1,15 +1,30 @@
-navbar
-      div.navbar
-        a(href="/mainpage" id="navbar" type="button") Home
-        a(href="/diary" id="navbar" type="button") Learning Diary
-        a(href="/projects" id="navbar" type="button") Projects
-        a(href="/data" id="navbar" type="button") Data Playgroud 
-        a(href="/personal" id="navbar" type="button") Personal Adventures
-        a(href="/myStory" id="navbar" type="button") My Story
-        a(href="/about" id="navbar" type="button") About Me
+sidebar
 
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  a(href="/mainpage" type="button") Home
+  a(href="/diary" type="button") Learning Diary
+  //- <div class="subnav">
+  //-   <a class="subnavbtn" type="button"> Learning Diary <i class="fa fa-caret-down"></i></a>
+  //-   <div class="subnav-content">
+  //-     a(href="/diary") OSU Courses
+  //-     a(href="/diary") Topics
+  //-   </div>
+  //- </div>
+  a(href="/projects" type="button") Projects
+  a(href="/data" type="button") Data Playground 
+  a(href="/personal" type="button") Personal Adventures
+  a(href="/myStory" type="button") My Story
+  //- a(href="/about" type="button") About Me
+</div>
 
-link(href="https://fonts.googleapis.com/css?family=Raleway&display=swap", rel="stylesheet")
-link(rel="stylesheet", href="/stylesheets/main.css")
+<div id="side">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+</div>
+
+link(href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet")
+link(rel="stylesheet" href="/stylesheets/main.css")
+script(src="/javascripts/main.js")
+
 
 

@@ -7,8 +7,10 @@ html
   include includes/links.pug
 
   body.about
-    h1.about A life well travelled is worth more than a thousand gold coins
-    
+    <div class="typewriter">
+      h1.typewriter-text-personal A life well travelled is worth more than a thousand gold coins
+    </div> 
+  
     p.myStory 
      | Winter of 2012 - It was there and then where I embarked on my first adventure, 
      | all by myself with a roller suitcase (which I still use!), on a train from King's Cross Station to the northern parts of UK. 
@@ -22,145 +24,150 @@ html
      | while waiting for my ride to Quepos. But after years of travelling, I have learned to hold onto one travel principle: 
      | It is often better to regret doing something, than to regret not doing it. And it has never let me down yet.
 
-     
-    p.quote Allt är inte guld som glimmar. Allt sak har sin tid - J.R.R. Tolkien
-    p.quote All that glimmers is not gold. All things have their time - J.R.R. Tolkien
-    <div class="travelSlides">
-    <div class="mySlides">
-        <div class="numbertext">Buenos Aires, Argentina</div>
-        <img src="webpage/argentina.jpg">
-    </div>
+    img#personal(src="webpage/indonesia.jpg")
+    h3.quoteBottom "Allt är inte guld som glimmar. Allt sak har sin tid"
+      br
+      | "All that glimmers is not gold. All things have their time"
+      br
+      | J.R.R. Tolkien
 
-    <div class="mySlides">
-        <div class="numbertext">Brussels, Belgium</div>
-        <img src="webpage/belgium.JPG">
-    </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Siam Reap, Cambodia</div>
-        <img src="webpage/cambodia.jpg">
-    </div>
+//-     <div class="travelSlides">
+//-     <div class="mySlides">
+//-         <div class="numbertext">Buenos Aires, Argentina</div>
+//-         <img src="webpage/argentina.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Pemberton, Canada</div>
-        <img src="webpage/canada.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Brussels, Belgium</div>
+//-         <img src="webpage/belgium.JPG">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Santiago, Chile</div>
-        <img src="webpage/chile.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Siam Reap, Cambodia</div>
+//-         <img src="webpage/cambodia.jpg">
+//-     </div>
+
+//-     <div class="mySlides">
+//-         <div class="numbertext">Pemberton, Canada</div>
+//-         <img src="webpage/canada.jpg">
+//-     </div>
+
+//-     <div class="mySlides">
+//-         <div class="numbertext">Santiago, Chile</div>
+//-         <img src="webpage/chile.jpg">
+//-     </div>
     
-    <div class="mySlides">
-        <div class="numbertext">Guatape, Colombia</div>
-        <img src="webpage/colombia.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Guatape, Colombia</div>
+//-         <img src="webpage/colombia.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Parco Manuel Antonio, Costa Rica</div>
-        <img src="webpage/costaRica.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Parco Manuel Antonio, Costa Rica</div>
+//-         <img src="webpage/costaRica.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Praha, Czech Republic</div>
-        <img src="webpage/czechRepublic.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Praha, Czech Republic</div>
+//-         <img src="webpage/czechRepublic.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Frederiksborg Slot, Hillerød, Denmark</div>
-        <img src="webpage/denmark.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Frederiksborg Slot, Hillerød, Denmark</div>
+//-         <img src="webpage/denmark.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Nice, France</div>
-        <img src="webpage/france.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Nice, France</div>
+//-         <img src="webpage/france.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Athens, Greece</div>
-        <img src="webpage/greece.JPG">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Athens, Greece</div>
+//-         <img src="webpage/greece.JPG">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Hong Kong</div>
-        <img src="webpage/hongKong.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Hong Kong</div>
+//-         <img src="webpage/hongKong.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Bali, Indonesia</div>
-        <img src="webpage/indonesia.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Bali, Indonesia</div>
+//-         <img src="webpage/indonesia.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Venetia, Italy</div>
-        <img src="webpage/italy.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Venetia, Italy</div>
+//-         <img src="webpage/italy.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Kota Kinabalu, Malaysia</div>
-        <img src="webpage/malaysia.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Kota Kinabalu, Malaysia</div>
+//-         <img src="webpage/malaysia.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Ciudad Mexico, Mexico</div>
-        <img src="webpage/mexico.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Ciudad Mexico, Mexico</div>
+//-         <img src="webpage/mexico.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Monaco</div>
-        <img src="webpage/monaco.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Monaco</div>
+//-         <img src="webpage/monaco.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Amsterdam, Netherlands</div>
-        <img src="webpage/netherlands.JPG">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Amsterdam, Netherlands</div>
+//-         <img src="webpage/netherlands.JPG">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Cusco, Peru</div>
-        <img src="webpage/peru.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Cusco, Peru</div>
+//-         <img src="webpage/peru.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Porto, Portugal</div>
-        <img src="webpage/porto.JPG">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Porto, Portugal</div>
+//-         <img src="webpage/porto.JPG">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Singapore</div>
-        <img src="webpage/singapore.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Singapore</div>
+//-         <img src="webpage/singapore.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Barcelona, Spain</div>
-        <img src="webpage/spain.JPG">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Barcelona, Spain</div>
+//-         <img src="webpage/spain.JPG">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Château de Chillon, Switzerland</div>
-        <img src="webpage/switzerland.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Château de Chillon, Switzerland</div>
+//-         <img src="webpage/switzerland.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Chiang Mai, Thailand</div>
-        <img src="webpage/Thailand.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Chiang Mai, Thailand</div>
+//-         <img src="webpage/Thailand.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Edinburgh, UK</div>
-        <img src="webpage/uk.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Edinburgh, UK</div>
+//-         <img src="webpage/uk.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Monteviedo, Uruguay</div>
-        <img src="webpage/uruguay.jpg">
-    </div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Monteviedo, Uruguay</div>
+//-         <img src="webpage/uruguay.jpg">
+//-     </div>
 
-    <div class="mySlides">
-        <div class="numbertext">Grand Canyon, Nevada, USA</div>
-        <img src="webpage/usa.jpg">
-    </div>
-</div>
+//-     <div class="mySlides">
+//-         <div class="numbertext">Grand Canyon, Nevada, USA</div>
+//-         <img src="webpage/usa.jpg">
+//-     </div>
+//- </div>
   script(src="/javascripts/main.js")
 
   

@@ -6,16 +6,20 @@ html
   include includes/navbar.pug
   include includes/links.pug
   
-
-  img#main(src='/images/goteborg.jpg' alt='goteborg' width='300%' height = '40%')
   body.main
-    h3.quote "All we have to decide is what to do with the time that is given us." - J.R.R. Tolkien
-    h2.main Welcome &nbsp;&nbsp; Bienvenida &nbsp;&nbsp; Välkommen &nbsp;&nbsp;  أهلا بك &nbsp;&nbsp; Selamat Datang &nbsp;&nbsp; 欢迎
+    <div class="typewriter">
+      <div class="typewriter-text">Hello there, my name is Serena =) </div>
+    </div>
+    br
+    //https://usefulangle.com/post/85/css-typewriter-animation
+    img#main(src='/images/goteborg.jpg' alt='goteborg')
     p.main  
-      | As the Swedes say it best, hej hej! Thank you for visiting my personal page. 
-      | I created this website (see: work-in-progress) mainly for two reasons.
+      | As the Swedes say it best, hej hej!
+      | I created this website (see: work-in-progress) mainly with two objectives.
       | Firstly, as a personal diary, to reflect on my learning milestones in software engineering and data science.
-      | Secondly, to share with you some of the fun things I am fiddling with at the moment (including building this website!). Enjoy!
+      | Secondly, to share some of the fun things I am fiddling with at the moment!
+    h3.quoteBottom "All we have to decide is what to do with the time that is given us." 
+      | J.R.R. Tolkien
     
 script(href='/javascripts/main.js')
   
